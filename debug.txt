@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 9]><html class="no-js is-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html dir="ltr" lang="en">
+ <!--<![endif]-->
+ <head>
+  <meta charset="utf-8"/>
+  <script crossorigin="anonymous" integrity="sha256-c93ruxPXehNJbbplwK5ic6Dlnfoo1hA1SKHKHf+b8r0=">
+   document.documentElement.className = document.documentElement.className.split('no-js').join('');
+  </script>
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+  <meta content="on" http-equiv="cleartype"/>
+  <meta content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
+  <meta content="2022" name="umb:id"/>
+  <meta content="2022" name="ifmPageId"/>
+  <meta content="Search" name="ifmPageTitle"/>
+  <meta content="dtSearch" name="umb:docType"/>
+  <meta content="always" name="referrer"/>
+  <meta content="NHS inform" data-build="" data-date="2020-05-19T07:35:06.2859929Z" data-uver="7.5.14" data-ver="0.0.0.0" name="_info"/>
+  <title>
+   Search | NHS inform
+  </title>
+  <!-- default -->
+  <link href="https://www.nhsinform.scot/search" rel="canonical"/>
+  <meta content="" name="description"/>
+  <meta content="" name="og:description"/>
+  <meta content="article" name="og:type" property="og:type"/>
+  <meta content="en_GB" name="og:locale" property="og:locale"/>
+  <meta content="noindex, nofollow" name="robots"/>
+  <!-- /default -->
+  <link href="https://www.nhsinform.scot/search?page=2&amp;q=%5b%27Acne%27%5d&amp;tab=inform" rel="next"/>
+  <link href="/Content/images/icons/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57"/>
+  <link href="/Content/images/icons/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60"/>
+  <link href="/Content/images/icons/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72"/>
+  <link href="/Content/images/icons/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76"/>
+  <link href="/Content/images/icons/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"/>
+  <link href="/Content/images/icons/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120"/>
+  <link href="/Content/images/icons/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144"/>
+  <link href="/Content/images/icons/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152"/>
+  <link href="/Content/images/icons/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="/Content/images/icons/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
+  <link href="/Content/images/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="/Content/images/icons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png"/>
+  <link href="/Content/images/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+  <link href="/content/images/icons/favicon.ico" rel="shortcut icon"/>
+  <link href="/Content/images/icons/manifest.json" rel="manifest"/>
+  <meta content="#ffffff" name="msapplication-TileColor"/>
+  <meta content="/Content/images/icons/ms-icon-144x144.png" name="msapplication-TileImage"/>
+  <meta content="#ffffff" name="theme-color"/>
+  <link href="/DependencyHandler.axd?s=L0NvbnRlbnQvY3NzL2FwcC1pY29ucy5jc3M7L0NvbnRlbnQvY3NzL2FwcC5jc3M7&amp;t=Css&amp;cdv=1719731811" media="all" rel="stylesheet" type="text/css"/>
+  <link href="/DependencyHandler.axd?s=L2lmbS9pZm0uY3NzOw&amp;t=Css&amp;cdv=1719731811" rel="stylesheet" type="text/css"/>
+  <link href="/css/fonts-async.css" rel="stylesheet" type="text/css"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha256-ffw+9zwShMev88XNrDgS0hLIuJkDfXhgyLogod77mn8=" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js">
+  </script>
+  <script type="text/javascript">
+   var MTIProjectId = '898d1158-f6f2-4b70-a9ba-d46c7e3235f0';
+        (function () {
+            var mtiTracking = document.createElement('script');
+            mtiTracking.type = 'text/javascript';
+            mtiTracking.async = 'true';
+            mtiTracking.src = '/scripts/mtiFontTrackingCode.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(mtiTracking);
+        })();
+  </script>
+  <!-- Latest Version -->
+  <script src="https://cc.cdn.civiccomputing.com/8/cookieControl-8.x.min.js" type="text/javascript">
+  </script>
+  <script>
+   var config = {
+            apiKey: '287afb00f8e845b84dd510d1fbdcc620ed33e028',
+            product: 'PRO_MULTISITE',
+            initialState: "notify",
+            position: "RIGHT",
+            theme: "DARK",
+            layout: "slideout",
+            statement: {
+                description: 'Find out how your information is used',
+                name: 'Learn more',
+                url: '/privacy-and-cookies-policy',
+                updated: '21/05/2020'
+            }
+        };
+
+        CookieControl.load(config);
+  </script>
+ </head>
+ <body>
+  <!-- Google Tag Manager -->
+  <noscript>
+   <iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-KMD2S7" style="display: none; visibility: hidden" width="0">
+   </iframe>
+  </noscript>
+  <script>
+   (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KMD2S7');
+  </script>
+  <!-- End Google Tag Manager -->
+  <header class="site-header" id="header">
+   <a class="main-content-link" href="#maincontent">
+    Skip to main content
+   </a>
+   <a class="main-content-link" href="#__ba_launchpad">
+    Skip to screen reader
+   </a>
+   <div class="wrapper relative">
+    <div class="clearfix">
+     <div class="col small-12 large-3">
+      <a class="site-logo" href="/" title="Homepage">
+       <img alt="NHS Inform, health information you can trust - homepage" src="/Content/images/logos/nhs-inform-logo--white.svg"/>
+      </a>
+     </div>
+     <div class="col small-12 large-5">
+      <div class="row mobile-strip">
+       <div class="col small-6 medium-3 pull-3--medium">
+        <button class="navigation-trigger" id="js-search-trigger">
+         <span class="">
+          Search
+         </span>
+         <i class="icon-search">
+         </i>
+        </button>
+       </div>
+       <div class="col small-6 medium-3 hide-for-large-up">
+        <button class="navigation-trigger hide-for-large-up" id="js-nav-trigger">
+         <span class="">
+          Menu
+         </span>
+         <i class="icon-menu">
+         </i>
+        </button>
+       </div>
+      </div>
+     </div>
+     <div class="col small-12 large-5" id="js-search">
+      <div class="search">
+       <form action="/search/" class="search__form relative js-header-location" method="GET">
+        <label class="search__label" for="global-search">
+         Search:
+        </label>
+        <input aria-autocomplete="list" autocomplete="off" class="search__input js-search-auto--small js-header-geolocation__input" id="global-search" name="q" placeholder="Search NHS inform/Services" type="search" value="['Acne']"/>
+        <input class="js-header-locpt" id="locpt" name="locpt" type="hidden" value=""/>
+        <input id="ds" name="ds" type="hidden" value=""/>
+        <input class="js-header-tab" id="tab" name="tab" type="hidden" value="inform"/>
+        <button aria-label="Search" class="search__submit" type="submit">
+         <span class="visuallyhidden">
+          Search
+         </span>
+         <span class="icon icon-search">
+         </span>
+        </button>
+       </form>
+      </div>
+     </div>
+     <a aria-atomic="true" aria-labelledby="ifm-cart-summary" aria-live="assertive" class="show-for-large-up ifm--med" href="/info-for-me/" id="ifmCounter" title="Info for me - Publish and share your health information - view my saved items">
+     </a>
+     <div id="__ba_launchpad">
+     </div>
+    </div>
+   </div>
+  </header>
+  <nav class="nav-primary" id="navigation">
+   <div class="wrapper">
+    <ul class="nav-primary__list" id="js-nav">
+     <li class="nav-primary__item nav-primary__item--home">
+      <a class="nav-primary__link nav-primary__link--home" href="/">
+       <span class="visuallyhidden">
+        Home
+       </span>
+       <span class="icon-home white">
+       </span>
+      </a>
+     </li>
+     <li class="nav-primary__item">
+      <a class="nav-primary__link" href="/illnesses-and-conditions" title="Illnesses and conditions">
+       Illnesses and conditions
+      </a>
+     </li>
+     <li class="nav-primary__item">
+      <a class="nav-primary__link" href="/symptoms-and-self-help" title="Symptoms and self-help">
+       Symptoms and self-help
+      </a>
+     </li>
+     <li class="nav-primary__item">
+      <a class="nav-primary__link" href="/tests-and-treatments" title="Tests and treatments">
+       Tests and treatments
+      </a>
+     </li>
+     <li class="nav-primary__item">
+      <a class="nav-primary__link" href="/healthy-living" title="Healthy living">
+       Healthy living
+      </a>
+     </li>
+     <li class="nav-primary__item">
+      <a class="nav-primary__link" href="/care-support-and-rights" title="Care, support and rights">
+       Care, support and rights
+      </a>
+     </li>
+     <li class="nav-primary__item">
+      <a class="nav-primary__link" href="/scotlands-service-directory" title="Scotland's Service Directory">
+       Scotland's Service Directory
+      </a>
+     </li>
+    </ul>
+   </div>
+  </nav>
+  <main class="site-main" id="maincontent">
+   <div class="bg-light-grey-1 soft--ends">
+    <div class="wrapper">
+     <div class="col small-12 text-center push--ends hide-for-large-up">
+      <a aria-controls="search-filters" aria-expanded="false" class="js-toggle btn btn--icon btn--feedback" href="#search-filters" role="button">
+       Refine your search
+       <span class="material-icons icon toggle-off">
+        expand_less
+       </span>
+       <span class="material-icons icon toggle-on">
+        expand_more
+       </span>
+      </a>
+     </div>
+     <div class="col small-12 large-3 no-print panel-search-filters" id="search-filters">
+      <h3 class="gamma bold push-half--bottom">
+       Refine your search
+      </h3>
+      <details class="nhsuk-details push-half--bottom">
+       <summary class="nhsuk-details__summary">
+        <span class="nhsuk-details__summary-text">
+         Subject (3)
+        </span>
+       </summary>
+       <div class="push-half--left">
+        <ul class="filter__list">
+         <li class="filter__list-item">
+          <a class="filter__list-link" href="?ms=3&amp;q=%5b%27Acne%27%5d&amp;tab=inform">
+           Healthy living
+           <span class="filter__list-count">
+            (1)
+           </span>
+          </a>
+         </li>
+         <li class="filter__list-item">
+          <a class="filter__list-link" href="?ms=1&amp;q=%5b%27Acne%27%5d&amp;tab=inform">
+           Illnesses and conditions
+           <span class="filter__list-count">
+            (15)
+           </span>
+          </a>
+         </li>
+         <li class="filter__list-item">
+          <a class="filter__list-link" href="?ms=2&amp;q=%5b%27Acne%27%5d&amp;tab=inform">
+           Tests and treatments
+           <span class="filter__list-count">
+            (6)
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </details>
+      <br/>
+     </div>
+     <div class="col small-12 large-9 panel-content">
+      <h1 class="block gamma push-half--bottom">
+       Search results for
+       <span class="bold">
+        '['Acne']'
+       </span>
+      </h1>
+      <div class="js-tabs tabs tabs--search">
+       <nav class="tabs__nav" role="tablist">
+        <a class="tabs__nav-link js-tabs__link active" href="search?tab=inform&amp;q=['Acne']" title="NHS inform Results">
+         24 results found
+        </a>
+        <a class="tabs__nav-link js-tabs__link" href="search?tab=nsd&amp;q=['Acne']" title="SSD Results">
+         View Services
+        </a>
+       </nav>
+       <section class="tabs__section active">
+        <ol class="search__results" id="local-results">
+         <li class="search__item">
+          <span class="block mid-grey-3 epsilon">
+           Guide
+          </span>
+          <h2 class="search__title">
+           <a href="/illnesses-and-conditions/skin-hair-and-nails/acne/" title="Acne">
+            Acne
+           </a>
+          </h2>
+          <p class="search__content">
+           Acne is a common condition that causes spots, oily skin and sometimes skin that's hot or painful to touch. Learn about acne symptoms and treatments.
+          </p>
+          <ol class="search__list">
+           <li>
+            <a href="/illnesses-and-conditions/skin-hair-and-nails/acne#about-acne" title="Acne  - About acne">
+             About acne
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/skin-hair-and-nails/acne#causes-of-acne" title="Acne  - Causes of acne">
+             Causes of acne
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/skin-hair-and-nails/acne#diagnosing-acne" title="Acne  - Diagnosing acne">
+             Diagnosing acne
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/skin-hair-and-nails/acne#treating-acne" title="Acne  - Treating acne">
+             Treating acne
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/skin-hair-and-nails/acne#complications-of-acne" title="Acne  - Complications of acne">
+             Complications of acne
+            </a>
+           </li>
+          </ol>
+          <p class="search__meta">
+           31/05/2020 |
+           <a href="#">
+            Organisation
+           </a>
+          </p>
+         </li>
+         <li class="search__item">
+          <span class="block mid-grey-3 epsilon">
+           Topic
+          </span>
+          <h2 class="search__title">
+           <a href="/illnesses-and-conditions/skin-hair-and-nails/" title="Skin, hair and nails">
+            Skin, hair and nails
+           </a>
+          </h2>
+          <p class="search__content">
+          </p>
+          <p class="search__meta">
+           31/05/2020 |
+           <a href="#">
+            Organisation
+           </a>
+          </p>
+         </li>
+         <li class="search__item">
+          <span class="block mid-grey-3 epsilon">
+           Guide
+          </span>
+          <h2 class="search__title">
+           <a href="/tests-and-treatments/medicines-and-medical-aids/types-of-medicine/corticosteroids/" title="Corticosteroids">
+            Corticosteroids
+           </a>
+          </h2>
+          <p class="search__content">
+           Corticosteroids, more often known as steroids, are an anti-inflammatory medicine prescribed for a wide range of conditions.
+          </p>
+          <ol class="search__list">
+           <li>
+            <a href="/tests-and-treatments/medicines-and-medical-aids/types-of-medicine/corticosteroids#introduction" title="Corticosteroids  - Introduction">
+             Introduction
+            </a>
+           </li>
+           <li>
+            <a href="/tests-and-treatments/medicines-and-medical-aids/types-of-medicine/corticosteroids#who-can-use-them" title="Corticosteroids  - Who can use them">
+             Who can use them
+            </a>
+           </li>
+           <li>
+            <a href="/tests-and-treatments/medicines-and-medical-aids/types-of-medicine/corticosteroids#medicines-that-interact-with-them" title="Corticosteroids  - Medicines that interact with them">
+             Medicines that interact with them
+            </a>
+           </li>
+           <li>
+            <a href="/tests-and-treatments/medicines-and-medical-aids/types-of-medicine/corticosteroids#side-effects" title="Corticosteroids  - Side effects">
+             Side effects
+            </a>
+           </li>
+          </ol>
+          <p class="search__meta">
+           31/05/2020 |
+           <a href="#">
+            Organisation
+           </a>
+          </p>
+         </li>
+         <li class="search__item">
+          <span class="block mid-grey-3 epsilon">
+           Guide
+          </span>
+          <h2 class="search__title">
+           <a href="/tests-and-treatments/medicines-and-medical-aids/types-of-medicine/antibiotics/" title="Antibiotics">
+            Antibiotics
+           </a>
+          </h2>
+          <p class="search__content">
+           Antibiotics are used to treat some types of bacterial infection. Learn more about their uses, including possible side-effects.
+          </p>
+          <ol class="search__list">
+           <li>
+            <a href="/tests-and-treatments/medicines-and-medical-aids/types-of-medicine/antibiotics#introduction" title="Antibiotics  - Introduction">
+             Introduction
+            </a>
+           </li>
+           <li>
+            <a href="/tests-and-treatments/medicines-and-medical-aids/types-of-medicine/antibiotics#uses" title="Antibiotics  - Uses">
+             Uses
+            </a>
+           </li>
+           <li>
+            <a href="/tests-and-treatments/medicines-and-medical-aids/types-of-medicine/antibiotics#special-considerations" title="Antibiotics  - Special considerations">
+             Special considerations
+            </a>
+           </li>
+           <li>
+            <a href="/tests-and-treatments/medicines-and-medical-aids/types-of-medicine/antibiotics#side-effects" title="Antibiotics  - Side effects">
+             Side effects
+            </a>
+           </li>
+           <li>
+            <a href="/tests-and-treatments/medicines-and-medical-aids/types-of-medicine/antibiotics#interactions-with-other-medicines" title="Antibiotics  - Interactions with other medicines">
+             Interactions with other medicines
+            </a>
+           </li>
+          </ol>
+          <p class="search__meta">
+           31/05/2020 |
+           <a href="#">
+            Organisation
+           </a>
+          </p>
+         </li>
+         <li class="search__item">
+          <span class="block mid-grey-3 epsilon">
+           Guide
+          </span>
+          <h2 class="search__title">
+           <a href="/illnesses-and-conditions/skin-hair-and-nails/rosacea/" title="Rosacea">
+            Rosacea
+           </a>
+          </h2>
+          <p class="search__content">
+           Rosacea is a common condition which mainly affects the face, often beginning with episodes of flushing. Learn about rosacea symptoms and treatments.
+          </p>
+          <ol class="search__list">
+           <li>
+            <a href="/illnesses-and-conditions/skin-hair-and-nails/rosacea#about-rosacea" title="Rosacea  - About rosacea">
+             About rosacea
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/skin-hair-and-nails/rosacea#symptoms-of-rosacea" title="Rosacea  - Symptoms of rosacea">
+             Symptoms of rosacea
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/skin-hair-and-nails/rosacea#causes-of-rosacea" title="Rosacea  - Causes of rosacea">
+             Causes of rosacea
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/skin-hair-and-nails/rosacea#treating-rosacea" title="Rosacea  - Treating rosacea">
+             Treating rosacea
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/skin-hair-and-nails/rosacea#preventing-rosacea" title="Rosacea  - Preventing rosacea">
+             Preventing rosacea
+            </a>
+           </li>
+          </ol>
+          <p class="search__meta">
+           31/05/2020 |
+           <a href="#">
+            Organisation
+           </a>
+          </p>
+         </li>
+         <li class="search__item">
+          <span class="block mid-grey-3 epsilon">
+           Ready Steady Baby!
+          </span>
+          <h2 class="search__title">
+           <a href="/ready-steady-baby/early-parenthood/caring-for-your-new-baby/if-your-babys-ill/" title="If your baby's ill">
+            If your baby's ill
+           </a>
+          </h2>
+          <p class="search__content">
+           A sick baby can be worrying, especially if this is your first. It’s most likely to be a cough or cold and nothing serious, so you may just need help to make them comfortable.
+          </p>
+          <p class="search__meta">
+           31/05/2020 |
+           <a href="#">
+            Organisation
+           </a>
+          </p>
+         </li>
+         <li class="search__item">
+          <span class="block mid-grey-3 epsilon">
+           Guide
+          </span>
+          <h2 class="search__title">
+           <a href="/illnesses-and-conditions/sexual-and-reproductive/fibroids/" title="Fibroids">
+            Fibroids
+           </a>
+          </h2>
+          <p class="search__content">
+           Fibroids are non-cancerous growths that develop in or around the womb (uterus). Learn about fibroids symptoms and treatments.
+          </p>
+          <ol class="search__list">
+           <li>
+            <a href="/illnesses-and-conditions/sexual-and-reproductive/fibroids#about-fibroids" title="Fibroids  - About fibroids">
+             About fibroids
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/sexual-and-reproductive/fibroids#diagnosing-fibroids" title="Fibroids  - Diagnosing fibroids">
+             Diagnosing fibroids
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/sexual-and-reproductive/fibroids#treating-fibroids" title="Fibroids  - Treating fibroids">
+             Treating fibroids
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/sexual-and-reproductive/fibroids#complications-of-fibroids" title="Fibroids  - Complications of fibroids">
+             Complications of fibroids
+            </a>
+           </li>
+          </ol>
+          <p class="search__meta">
+           31/05/2020 |
+           <a href="#">
+            Organisation
+           </a>
+          </p>
+         </li>
+         <li class="search__item">
+          <span class="block mid-grey-3 epsilon">
+           Guide
+          </span>
+          <h2 class="search__title">
+           <a href="/illnesses-and-conditions/sexual-and-reproductive/endometriosis/" title="Endometriosis">
+            Endometriosis
+           </a>
+          </h2>
+          <p class="search__content">
+           Endometriosis is a common condition where the tissue that behaves like the lining of the womb (the endometrium) is found outside the womb. Learn about endometriosis symptoms and treatments.
+          </p>
+          <ol class="search__list">
+           <li>
+            <a href="/illnesses-and-conditions/sexual-and-reproductive/endometriosis#about-endometriosis" title="Endometriosis  - About endometriosis">
+             About endometriosis
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/sexual-and-reproductive/endometriosis#causes-of-endometriosis" title="Endometriosis  - Causes of endometriosis">
+             Causes of endometriosis
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/sexual-and-reproductive/endometriosis#treating-endometriosis" title="Endometriosis  - Treating endometriosis">
+             Treating endometriosis
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/sexual-and-reproductive/endometriosis#complications-of-endometriosis" title="Endometriosis  - Complications of endometriosis">
+             Complications of endometriosis
+            </a>
+           </li>
+          </ol>
+          <p class="search__meta">
+           31/05/2020 |
+           <a href="#">
+            Organisation
+           </a>
+          </p>
+         </li>
+         <li class="search__item">
+          <span class="block mid-grey-3 epsilon">
+           Guide
+          </span>
+          <h2 class="search__title">
+           <a href="/illnesses-and-conditions/muscle-bone-and-joints/conditions/reactive-arthritis/" title="Reactive arthritis">
+            Reactive arthritis
+           </a>
+          </h2>
+          <p class="search__content">
+           Reactive arthritis, formerly known as Reiter's syndrome, is a condition that causes inflammation in various places in the body. Learn about its symptoms and treatments.
+          </p>
+          <ol class="search__list">
+           <li>
+            <a href="/illnesses-and-conditions/muscle-bone-and-joints/conditions/reactive-arthritis#about-reactive-arthritis" title="Reactive arthritis  - About reactive arthritis">
+             About reactive arthritis
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/muscle-bone-and-joints/conditions/reactive-arthritis#symptoms-of-reactive-arthritis" title="Reactive arthritis  - Symptoms of reactive arthritis">
+             Symptoms of reactive arthritis
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/muscle-bone-and-joints/conditions/reactive-arthritis#causes-of-reactive-arthritis" title="Reactive arthritis  - Causes of reactive arthritis">
+             Causes of reactive arthritis
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/muscle-bone-and-joints/conditions/reactive-arthritis#treating-reactive-arthritis" title="Reactive arthritis  - Treating reactive arthritis">
+             Treating reactive arthritis
+            </a>
+           </li>
+          </ol>
+          <p class="search__meta">
+           31/05/2020 |
+           <a href="#">
+            Organisation
+           </a>
+          </p>
+         </li>
+         <li class="search__item">
+          <span class="block mid-grey-3 epsilon">
+           Guide
+          </span>
+          <h2 class="search__title">
+           <a href="/illnesses-and-conditions/sexual-and-reproductive/menopause/" title="Menopause">
+            Menopause
+           </a>
+          </h2>
+          <p class="search__content">
+           The menopause is a when a woman stops having periods and is no longer able to get pregnant naturally. Learn about menopause symptoms and treatments.
+          </p>
+          <ol class="search__list">
+           <li>
+            <a href="/illnesses-and-conditions/sexual-and-reproductive/menopause#about-menopause" title="Menopause  - About menopause">
+             About menopause
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/sexual-and-reproductive/menopause#symptoms-of-menopause" title="Menopause  - Symptoms of menopause">
+             Symptoms of menopause
+            </a>
+           </li>
+           <li>
+            <a href="/illnesses-and-conditions/sexual-and-reproductive/menopause#treating-menopause" title="Menopause  - Treating menopause">
+             Treating menopause
+            </a>
+           </li>
+          </ol>
+          <p class="search__meta">
+           31/05/2020 |
+           <a href="#">
+            Organisation
+           </a>
+          </p>
+         </li>
+        </ol>
+        <div class="text-center">
+         <h4 class="visuallyhidden">
+          Further search results
+         </h4>
+         <ul class="pagination__list">
+          <li class="pagination__item">
+           <a class="pagination__link active" href="?q=%5b%27Acne%27%5d&amp;tab=inform">
+            1
+           </a>
+          </li>
+          <li class="pagination__item">
+           <a class="pagination__link" href="?page=2&amp;q=%5b%27Acne%27%5d&amp;tab=inform">
+            2
+           </a>
+          </li>
+          <li class="pagination__item">
+           <a class="pagination__link" href="?page=3&amp;q=%5b%27Acne%27%5d&amp;tab=inform">
+            3
+           </a>
+          </li>
+         </ul>
+        </div>
+       </section>
+      </div>
+     </div>
+    </div>
+   </div>
+  </main>
+  <footer class="site-footer" id="footer">
+   <div class="wrapper relative">
+    <div class="col small-12 medium-10 large-10">
+     <div class="col small-12 medium-2 large-2 push-double--bottom">
+      <a href="http://www.nhs24.scot" target="_blank">
+       <img alt="NHS 24" class="footer-logo" src="/Content/images/logos/nhs-24--white.svg" title="NHS 24"/>
+      </a>
+     </div>
+     <div class="col small-12 medium-10 large-10">
+      <div class="row">
+       <h3 class="col small-12 footer__title">
+        NHS inform
+       </h3>
+       <div class="col small-6 medium-6 large-3">
+        <ul class="copy" style="margin-bottom: 0;">
+         <li>
+          <a href="/about-nhs-inform/" title="About NHS inform">
+           About NHS inform
+          </a>
+         </li>
+         <li>
+          <a href="/editorial-policy/" title="Editorial policy">
+           Editorial policy
+          </a>
+         </li>
+         <li>
+          <a href="/contact-us/" title="Contact us">
+           Contact us
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="col small-6 medium-6 large-3">
+        <ul class="copy" style="margin-bottom: 0;">
+         <li>
+          <a href="/webchat/" title="Webchat">
+           Webchat
+          </a>
+         </li>
+         <li>
+          <a href="/feedback/" title="Feedback">
+           Feedback
+          </a>
+         </li>
+         <li>
+          <a href="/info-for-me-tool/" title="Info for Me tool">
+           Info for Me tool
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="col small-6 medium-6 large-3">
+        <ul class="copy" style="margin-bottom: 0;">
+         <li>
+          <a href="/terms-and-conditions/" title="Terms and conditions">
+           Terms and conditions
+          </a>
+         </li>
+         <li>
+          <a href="/privacy-and-cookies-policy/" title="Privacy and cookies policy">
+           Privacy and cookies policy
+          </a>
+         </li>
+         <li>
+          <a href="/freedom-of-information-foi/" title="Freedom of information (FOI)">
+           Freedom of information (FOI)
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="col small-6 medium-6 large-3">
+        <ul class="copy" style="margin-bottom: 0;">
+         <li>
+          <a href="/accessibility/" title="Accessibility">
+           Accessibility
+          </a>
+         </li>
+         <li>
+          <a href="/other-languages-and-formats/" title="Other languages and formats">
+           Other languages and formats
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="col small-12 medium-2 large-2">
+     <div class="footer-logos">
+      <a href="http://contactscotland-bsl.org/device-direct/">
+       <img alt="BSL" height="83" src="/Content/images/bsl-logo.svg" width="70"/>
+      </a>
+     </div>
+    </div>
+    <hr class="col small-12"/>
+    <div class="clearfix">
+     <div class="small-6 col">
+      <span class="delta">
+       © 2020 NHS 24 - v0.0.0.0
+      </span>
+     </div>
+     <div class="small-6 col">
+      <ul class="social-list">
+       <li>
+        <a class="social-icon facebook" href="https://www.facebook.com/NHS24" rel="noreferrer" target="_blank" title="Follow us on Facebook">
+         <span class="visuallyhidden">
+          Follow us on Facebook
+         </span>
+        </a>
+       </li>
+       <li>
+        <a class="social-icon twitter" href="https://twitter.com/NHS24" rel="noreferrer" target="_blank" title="Follow us on Twitter">
+         <span class="visuallyhidden">
+          Follow us on Twitter
+         </span>
+        </a>
+       </li>
+       <li>
+        <a class="social-icon youtube" href="https://www.youtube.com/user/nhsinform" rel="noreferrer" target="_blank" title="Follow us on YouTube">
+         <span class="visuallyhidden">
+          Follow us on YouTube
+         </span>
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <!-- delayed-block: knockout_before -->
+  <script src="/DependencyHandler.axd?s=L0NvbnRlbnQvdmVuZG9yL2ZpdHZpZHMvZml0dmlkcy5taW4uanM7&amp;t=Javascript&amp;cdv=1719731811" type="text/javascript">
+  </script>
+  <script src="/DependencyHandler.axd?s=L0NvbnRlbnQvanMvYXBwLmpzOw&amp;t=Javascript&amp;cdv=1719731811" type="text/javascript">
+  </script>
+  <script src="/DependencyHandler.axd?s=L0NvbnRlbnQvdmVuZG9yL2F1dG8tY29tcGxldGUvYXV0by1jb21wbGV0ZS5taW4uanM7L2lmbS9pZm0uanM7L2lmbS9zb3J0LmpzOw&amp;t=Javascript&amp;cdv=1719731811" type="text/javascript">
+  </script>
+  <!-- delayed-block: knockout_after -->
+  <!--
+    To collect end-user usage analytics about your application,
+    insert the following script into each page you want to track.
+    Place this code immediately before the closing </head> tag,
+    and before any other scripts. Your first data will appear
+    automatically in just a few seconds.
+    -->
+  <script type="text/javascript">
+   var appInsights = window.appInsights ||
+            function(config) {
+                var t = { config: config },
+                    u = document,
+                    e = window,
+                    o = "script",
+                    s = "AuthenticatedUserContext",
+                    h = "start",
+                    c = "stop",
+                    l = "Track",
+                    a = l + "Event",
+                    v = l + "Page",
+                    y = u.createElement(o),
+                    r,
+                    f;
+
+                function i(config) {
+                    t[config] = function() {
+                        var i = arguments;
+                        t.queue.push(function() { t[config].apply(t, i) });
+                    }
+                }
+                
+                y.src = config.url || "https://az416426.vo.msecnd.net/scripts/a/ai.0.js";
+                u.getElementsByTagName(o)[0].parentNode.appendChild(y);
+                try {
+                    t.cookie = u.cookie;
+                } catch (p) {
+                }
+                for (t.queue = [], t.version = "1.0", r = [
+                        "Event", "Exception", "Metric", "PageView", "Trace", "Dependency"
+                    ];
+                    r.length;
+                ) i("track" + r.pop());
+                return i("set" + s), i("clear" + s), i(h + a), i(c + a), i(h + v), i(c + v), i("flush"),
+                    config.disableExceptionTracking ||
+                    (r = "onerror", i("_" + r), f = e[r], e[r] = function(config, i, u, e, o) {
+                        var s = f && f(config, i, u, e, o);
+                        return s !== !0 && t["_" + r](config, i, u, e, o), s
+                    }), t;
+            }({
+                instrumentationKey: "014c7172-6d94-4ce4-880c-ad36941c6524",
+                
+            });
+
+        window.appInsights = appInsights;
+
+        appInsights.queue.push(function () {
+            appInsights.context.addTelemetryInitializer(function (envelope) {
+                envelope.appVer = "";
+                var telemetryItem = envelope.data.baseData;
+                telemetryItem.properties = telemetryItem.properties || {};
+                telemetryItem.properties["umb-version"] = "7.5.14";
+            });
+        });
+        appInsights.trackPageView(null, null, {urlReferrer: document.referrer});
+  </script>
+  <!-- Google Analytics -->
+  <style>
+   .async-hide {
+			opacity: 0 !important
+		}
+  </style>
+  <script>
+   (function (a, s, y, n, c, h, i, d, e) {
+			s.className += ' ' + y; h.start = 1 * new Date;
+			h.end = i = function () { s.className = s.className.replace(RegExp(' ?' + y), '') };
+			(a[n] = a[n] || []).hide = h; setTimeout(function () { i(); h.end = null }, c); h.timeout = c;
+		})(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
+			{ 'GTM-KHMC73P': true });
+  </script>
+  <script>
+   window.ga = window.ga || function() { (ga.q = ga.q || []).push(arguments) };
+    ga.l = +new Date;
+        
+        ga('create', '', 'auto');
+		ga('require', 'GTM-KHMC73P');
+		ga('send', 'pageview');
+  </script>
+  <script async="" src="https://www.google-analytics.com/analytics.js">
+  </script>
+  <!-- End Google Analytics -->
+  <script crossorigin="anonymous" integrity="sha256-oqVDkm6kqhrxVfL82Z6NfCp2T17Keci81B+wMQ7chKA=" type="text/javascript">
+   var ifm = new InfoForMe()
+  </script>
+  <script src="https://www.browsealoud.com/plus/scripts/ba.js" type="text/javascript">
+  </script>
+  <script src="/scripts/iframe.contentWindow.js" type="text/javascript">
+  </script>
+ </body>
+</html>

@@ -1,0 +1,412 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Presentation {% endblock %}
+{% block stylesheets %}
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Century Gothic, serif;
+    }
+
+    /*header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/1.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }*/
+
+    .network-section, .navigation-width {
+        max-width: 1260px;
+        margin-left: 150px;
+        /*margin-top: 150px;*/
+        width: 80%;
+    }
+
+    .box-shadow {
+        box-shadow: 1px 1px 3px 0 rgba(119, 119, 119, 0.3);
+        -webkit-box-shadow: 1px 1px 3px 0 rgba(119, 119, 119, 0.3);
+        -moz-box-shadow: 1px 1px 3px 0 rgba(119, 119, 119, 0.3);
+    }
+
+    .padding-20 {
+        padding: 20px !important;
+    }
+
+    .margin-b30 {
+        margin-bottom: 30px !important;
+    }
+
+    .bg-white {
+        background: #fff !important;
+        color: #373534 !important;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    user agent stylesheet
+    div {
+        display: block;
+    }
+
+    /*#a {
+        color: #373534;
+    }
+    */
+    .display-flex {
+        display: -webkit-box !important;
+        display: -moz-box !important;
+        display: -ms-flexbox !important;
+        display: -webkit-flex !important;
+        display: flex !important;
+    }
+
+    .full-width {
+        width: 100% !important;
+    }
+
+    .margin-b20 {
+        margin-bottom: 20px !important;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    user agent stylesheet
+    div {
+        display: block;
+    }
+
+    /*body {
+        background-color:initial;
+        font-size: 14px !important;
+        font-family: 'Roboto', Helvetica, Calibri, sans-serif !important;
+        line-height: 1.5 !important;
+
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+    }
+    */
+    h2 {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+    #a:hover {
+        color: white;
+        background-color: #334574;
+    }
+
+    .full-width {
+        width: 100% !important;
+    }
+
+    .margin-b10 {
+        margin-bottom: 10px !important;
+    }
+
+    .margin-0 {
+        margin: 0 !important;
+    }
+
+    /*.network-search {*/
+    /*    overflow: hidden;*/
+    /*    background: url(/assets/networkd/search-18ff34a….svg) no-repeat !important;*/
+    /*    background-position: 8px 50% !important;*/
+    /*    background-size: 24px !important;*/
+    /*    width: 35%;*/
+    /*    border-radius: 0;*/
+    /*    height: 45px;*/
+    /*    padding: 6px 8px;*/
+    /*    border-radius: 3px;*/
+    /*    border: 1px solid #ccc;*/
+    /*    padding-left: 40px;*/
+    /*}*/
+
+    .flex-wrap {
+        flex-wrap: wrap;
+    }
+
+    div {
+        display: block;
+    }
+
+    .border-grey-cc {
+        border: 1px solid #ccc;
+    }
+
+    .padding-10 {
+        padding: 10px !important;
+    }
+
+    .margin-b10 {
+        margin-bottom: 10px !important;
+    }
+
+    .no-decoration {
+        text-decoration: none !important;
+    }
+
+    .color-inherit {
+        color: inherit !important;
+    }
+
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 0;
+        border-top: 1px solid #eee;
+    }
+
+    .space-between {
+        justify-content: space-between;
+    }
+
+
+</style>
+{% endblock stylesheets %}
+
+{% block content %}
+<section class="section section bg-primary pb-11 pb-lg-12 text-white overflow-hidden z-2">
+    <header style="padding: 5px">
+        <div class="network-section bg-white padding-20 box-shadow">
+            <div class="display-flex space-between full-width margin-b20">
+                <div class="full-width">
+                    <h2 class="margin-0 margin-b10">Speciality-wise List of Doctors in Bangalore</h2>
+                    <h5 class="margin-0" style="color: black;">Get the list of Top Doctors in Bengaluru</h5>
+                </div>
+                <input class="network-search network_search" name="" placeholder="Search Speciality" type="text">
+                <hr>
+            </div>
+            <div class="button">
+                <div class="network_spec_list">
+                    <div class="text-center display-flex space-between flex-wrap ">
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="aesthetic-and-reconstructive-surgery" style="color: rgb(61, 6, 61)">Aesthetic
+                            and Reconstructive Surgery</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="andrology" style="color: rgb(61, 6, 61)">Andrology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="bariatric-surgery" style="color: rgb(61, 6, 61)">Bariatric
+                            Surgery</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="bone-marrow-transplantation" style="color: rgb(61, 6, 61)">Bone Marrow
+                            Transplantation</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="breast-surgery" style="color: rgb(61, 6, 61)">Breast
+                            Surgery</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="cardiac-surgery" style="color: rgb(61, 6, 61)">Cardiac
+                            Surgery</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="cardiology" style="color: rgb(61, 6, 61)">Cardiology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="cardiology-electrophysiology" style="color: rgb(61, 6, 61)">Cardiology
+                            Electrophysiology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="critical-care" style="color: rgb(61, 6, 61)">Critical
+                            Care</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="dental-surgery" style="color: rgb(61, 6, 61)">Dental
+                            Surgery</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="dermatology" style="color: rgb(61, 6, 61)">Dermatology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="diabetology" style="color: rgb(61, 6, 61)">Diabetology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="dietary" style="color: rgb(61, 6, 61)">Dietary</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="emergency-and-trauma" style="color: rgb(61, 6, 61)">Emergency
+                            and Trauma</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="endocrinology" style="color: rgb(61, 6, 61)">Endocrinology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc " href="ent"
+                           style="color: rgb(61, 6, 61)">ENT</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="fetal-medicine" style="color: rgb(61, 6, 61)">Fetal
+                            Medicine</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="gastroenterology" style="color: rgb(61, 6, 61)">Gastroenterology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="gastrointestinal-oncology" style="color: rgb(61, 6, 61)">Gastrointestinal
+                            Oncology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="general-surgery" style="color: rgb(61, 6, 61)">General
+                            Surgery</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="genetic-medicine" style="color: rgb(61, 6, 61)">Genetic
+                            Medicine</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="geriatric-medicine" style="color: rgb(61, 6, 61)">Geriatric
+                            Medicine</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="gynecologic-oncology" style="color: rgb(61, 6, 61)">Gynecologic
+                            Oncology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="head-and-neck-surgery" style="color: rgb(61, 6, 61)">Head and
+                            Neck Surgery</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="hematology" style="color: rgb(61, 6, 61)">Hematology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="hemato-oncology" style="color: rgb(61, 6, 61)">Hemato
+                            Oncology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="hepatology" style="color: rgb(61, 6, 61)">Hepatology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="immunology" style="color: rgb(61, 6, 61)">Immunology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="infectious-disease" style="color: rgb(61, 6, 61)">Infectious
+                            Disease</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="internal-medicine" style="color: rgb(61, 6, 61)">Internal
+                            Medicine</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="interventional-radiology" style="color: rgb(61, 6, 61)">Interventional
+                            Radiology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="ivf-and-reproductive-medicine" style="color: rgb(61, 6, 61)">IVF and
+                            Reproductive Medicine</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="joint-replacement" style="color: rgb(61, 6, 61)">Joint
+                            Replacement</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="laparoscopic-surgery" style="color: rgb(61, 6, 61)">Laparoscopic
+                            Surgery</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="liver-transplantation" style="color: rgb(61, 6, 61)">Liver
+                            Transplantation</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="medical-oncology" style="color: rgb(61, 6, 61)">Medical
+                            Oncology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="neonatology" style="color: rgb(61, 6, 61)">Neonatology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="nephrology" style="color: rgb(61, 6, 61)">Nephrology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="neurology" style="color: rgb(61, 6, 61)">Neurology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="neuroradiology" style="color: rgb(61, 6, 61)">Neuroradiology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="neurosurgery" style="color: rgb(61, 6, 61)">Neurosurgery</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="nuclear-medicine" style="color: rgb(61, 6, 61)">Nuclear
+                            Medicine</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="obstetrics-and-gynaecology" style="color: rgb(61, 6, 61)">Obstetrics
+                            and Gynaecology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="ophthalmology" style="color: rgb(61, 6, 61)">Ophthalmology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="orthopedics" style="color: rgb(61, 6, 61)">Orthopedics</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="pain-management" style="color: rgb(61, 6, 61)">Pain
+                            Management</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="pathology" style="color: rgb(61, 6, 61)">Pathology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="pediatric-cardiac-surgery" style="color: rgb(61, 6, 61)">Pediatric
+                            Cardiac Surgery</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="pediatric-cardiology" style="color: rgb(61, 6, 61)">Pediatric
+                            Cardiology</a>
+
+                        <a class="doctor-name padding-10 margin-b10 border-grey-cc "
+                           href="pediatric-endocrinology" style="color: rgb(61, 6, 61)">Pediatric
+                            Endocrinology</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+</section>
+{% endblock content %}
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+{% endblock javascripts %}

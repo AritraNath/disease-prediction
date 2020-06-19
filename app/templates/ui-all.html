@@ -1,0 +1,1758 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Components {% endblock %}
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+<!-- Hero -->
+<section class="section section-head bg-primary text-white overflow-hidden z-2">
+    <div class="container z-2">
+        <div class="row justify-content-center text-center pt-6 mb-2">
+            <div class="col-lg-8 col-xl-8">
+                <h1 class="display-2 font-weight-light mb-3">Pixel <span class="font-weight-bolder">UI KIT</span><span
+                        class="pixel-pro-badge-md font-weight-bolder text-primary">LITE</span></h1>
+                <p class="lead mb-5">Over 1000 premium Bootstrap components</p>
+                <div class="d-flex flex-column flex-wrap flex-md-row justify-content-md-center mb-5">
+                    <div class="d-flex align-items-center">
+                        <a class="btn btn-tertiary mb-3 mt-2 mr-2 mr-md-3 animate-up-2"
+                           href="https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit"
+                           target="_blank"><span class="fas fa-cloud-download-alt mr-2"></span> Download</a>
+                        <div class="mt-1">
+                            <!-- Place this tag where you want the button to render. -->
+                            <a aria-label="Star themesberg/pixel-bootstrap-ui-kit on GitHub" class="github-button"
+                               data-color-scheme="no-preference: dark; light: light; dark: light;"
+                               data-icon="octicon-star" data-show-count="true" data-size="large"
+                               href="https://github.com/themesberg/pixel-bootstrap-ui-kit">Star</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="d-flex justify-content-center flex-column" href="https://themesberg.com" target="_blank">
+                    <img alt="Themesberg Logo" class="mb-3" height="25" src="/static/assets/img/themesberg.svg">
+                    <span class="text-muted font-small">A Themesberg production</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--End of Title section-->
+<div class="section section-md">
+    <div class="container">
+        <div class="row justify-content-center mt-4">
+            <div class="col-12 col-lg-8">
+                <!--Accordion-->
+                <div class="accordion" id="accordionExample1">
+                    <div class="card card-sm card-body border-light mb-0">
+                        <a aria-controls="panel-1" aria-expanded="false" class="accordion-panel-header"
+                           data-target="#panel-1" data-toggle="collapse" href="#panel-1" role="button">
+                            <span class="h6 mb-0 font-weight-bold">Our Company</span>
+                            <span class="icon"><span class="fas fa-plus"></span></span>
+                        </a>
+                        <div class="collapse" id="panel-1">
+                            <div class="pt-3">
+                                <p class="mb-0">
+                                    At Themesberg, our mission has always been focused on bringing openness and
+                                    transparency to the design process. We've always believed that by providing a space
+                                    where designers can share ongoing work not only empowers them to make better
+                                    products, it also
+                                    helps them grow. We're proud to be a part of creating a more open culture and to
+                                    continue building a product that supports this vision.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-sm card-body border-light mb-0">
+                        <a aria-controls="panel-1" aria-expanded="false" class="accordion-panel-header"
+                           data-target="#panel-2" data-toggle="collapse" href="#panel-2" role="button">
+                            <span class="h6 mb-0 font-weight-bold">Pixel Components</span>
+                            <span class="icon"><span class="fas fa-plus"></span></span>
+                        </a>
+                        <div class="collapse" id="panel-2">
+                            <div class="pt-3">
+                                <p class="mb-0">
+                                    At Themesberg, our mission has always been focused on bringing openness and
+                                    transparency to the design process. We've always believed that by providing a space
+                                    where designers can share ongoing work not only empowers them to make better
+                                    products, it also
+                                    helps them grow. We're proud to be a part of creating a more open culture and to
+                                    continue building a product that supports this vision. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-sm card-body border-light">
+                        <a aria-controls="panel-1" aria-expanded="false" class="accordion-panel-header"
+                           data-target="#panel-3" data-toggle="collapse" href="#panel-3" role="button">
+                            <span class="h6 mb-0 font-weight-bold">Licenses</span>
+                            <span class="icon"><span class="fas fa-plus"></span></span>
+                        </a>
+                        <div class="collapse" id="panel-3">
+                            <div class="pt-3">
+                                <p class="mb-0">
+                                    At Themesberg, our mission has always been focused on bringing openness and
+                                    transparency to the design process. We've always believed that by providing a space
+                                    where designers can share ongoing work not only empowers them to make better
+                                    products, it also
+                                    helps them grow. We're proud to be a part of creating a more open culture and to
+                                    continue building a product that supports this vision. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End of Accordion-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Section -->
+<div class="section section-md">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div aria-atomic="true" class="alert alert-primary" role="alert">
+                        <span class="alert-inner--text">This is a primary alert with <a class="alert-link" href="#">an
+                                example link</a>. Give it a click if you like.</span>
+                </div>
+                <div aria-atomic="true" class="alert alert-secondary" role="alert">
+                        <span class="alert-inner--text">This is a secondary alert with <a class="alert-link" href="#">an
+                                example link</a>. Give it a click if you like.</span>
+                </div>
+                <div aria-atomic="true" class="alert alert-success" role="alert">
+                        <span class="alert-inner--text">This is a success alert with <a class="alert-link" href="#">an
+                                example link</a>. Give it a click if you like.</span>
+                </div>
+                <div aria-atomic="true" class="alert alert-info" role="alert">
+                        <span class="alert-inner--text">This is a info alert with <a class="alert-link" href="#">an
+                                example link</a>. Give it a click if you like.</span>
+                </div>
+                <div aria-atomic="true" class="alert alert-warning" role="alert">
+                        <span class="alert-inner--text">This is a warning alert with <a class="alert-link text-dark"
+                                                                                        href="#">an
+                                example link</a>. Give it a click if you like.</span>
+                </div>
+                <div aria-atomic="true" class="alert alert-danger" role="alert">
+                        <span class="alert-inner--text">This is a danger alert with <a class="alert-link" href="#">an
+                                example link</a>. Give it a click if you like.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Section -->
+
+<!-- Section -->
+<div class="section section-md">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <span class="badge badge-primary">Primary</span>
+                <span class="badge badge-secondary">Secondary</span>
+                <span class="badge badge-tertiary">Tertiary</span>
+                <span class="badge badge-gray">Gray</span>
+                <span class="badge badge-success">Success</span>
+                <span class="badge badge-danger">Danger</span>
+                <span class="badge badge-warning">Warning</span>
+                <span class="badge badge-info">Info</span>
+            </div>
+            <div class="col-12 text-center">
+                <span class="badge badge-pill badge-primary">Primary</span>
+                <span class="badge badge-pill badge-secondary">Secondary</span>
+                <span class="badge badge-pill badge-tertiary">Tertiary</span>
+                <span class="badge badge-pill badge-gray">Gray</span>
+                <span class="badge badge-pill badge-success">Success</span>
+                <span class="badge badge-pill badge-danger">Danger</span>
+                <span class="badge badge-pill badge-warning">Warning</span>
+                <span class="badge badge-pill badge-info">Info</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Section -->
+
+<!--End of Title section-->
+<div class="section section-md">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                <div class="card border-light">
+                    <img alt="Office space" class="card-img-top rounded-top" src="/static/assets/img/blog/image-1.jpg">
+                    <div class="card-body">
+                        <span class="h6 icon-tertiary small"><span class="fas fa-medal mr-2"></span>Awards</span>
+                        <h2 class="h5 mt-3">We partnered up with Ildiesign</h2>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a class="btn btn-primary btn-sm" href="#">Read All</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-5 mb-md-7 mb-lg-0">
+                <div class="card">
+                    <div class="position-relative">
+                        <img alt="Neil Sims" class="card-img-top" src="/static/assets/img/team/profile-picture-1.jpg">
+                    </div>
+                    <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light">
+                        <h2 class="h5">Neil D. Sims</h2>
+                        <span class="text-gray"><span class="fas fa-map-marker-alt mr-2"></span>New York,
+                                USA</span>
+                        <p class="mt-3">Neil drives the technical strategy of the platform and brand.</p>
+                        <button class="btn btn-secondary btn-icon">
+                            <span class="mr-1"><span class="far fa-user"></span></span>
+                            Follow
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                <div class="card border-light text-center">
+                    <!-- Header -->
+                    <div class="card-header bg-white p-3">
+                        <h2 class="h3 text-primary mb-4">Basic</h2>
+                        <span class="d-block">
+                                <span class="display-1 text-dark font-weight-bold">
+                                    <span class="align-top font-medium">$</span>19
+                            </span>
+                            <span class="d-block text-gray font-small">/ month</span>
+                            </span>
+                    </div>
+                    <!-- End Header -->
+                    <!-- Content -->
+                    <div class="card-body">
+                        <ul class="list-unstyled mb-4">
+                            <li class="list-item pb-3"><strong>1</strong> free domain</li>
+                            <li class="list-item pb-3">Storage space: <strong>5GB</strong></li>
+                            <li class="list-item pb-3"><strong>100k</strong> monthly visitors</li>
+                            <li class="list-item pb-3">One-click staging site</li>
+                            <li class="list-item pb-3">Search engine wizard</li>
+                            <li class="list-item pb-3">Community support</li>
+                        </ul>
+                        <button class="btn btn-primary btn-block animate-up-1" type="button">Start
+                            Starter
+                        </button>
+                    </div>
+                    <!-- End Content -->
+                </div>
+            </div>
+            <div class="col-12 mt-5">
+                <div class="card border-light px-4 py-5">
+                    <div class="card-header bg-white text-center pb-0">
+                        <h2 class="h1 mb-3">Get the most out of your network.</h2>
+                        <p class="mb-5 lead">
+                            Contact management designed for teams and individuals
+                        </p>
+                    </div>
+                    <div class="card-body pt-2 px-0 px-lg-7">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-8">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail8">Email address</label>
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="input-group">
+                                            <input aria-label="Email address" class="form-control form-control-xl"
+                                                   id="exampleInputEmail8" placeholder="Your email address"
+                                                   type="email">
+                                            <div class="input-group-prepend">
+                                                <button class="btn btn-primary rounded-right" type="submit">Subscribe
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Section -->
+<div class="section section-md">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 mx-auto">
+                <!-- Carousel -->
+                <div class="carousel slide" data-ride="carousel" id="Carousel2">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img alt="First slide" class="d-block w-100 rounded"
+                                 src="/static/assets/img/carousel/image-1.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img alt="Second slide" class="d-block w-100 rounded"
+                                 src="/static/assets/img/carousel/image-2.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img alt="Third slide" class="d-block w-100 rounded"
+                                 src="/static/assets/img/carousel/image-3.jpg">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" data-slide="prev" href="#Carousel2" role="button">
+                        <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                        <span class="sr-only">Preview item</span>
+                    </a>
+                    <a class="carousel-control-next" data-slide="next" href="#Carousel2" role="button">
+                        <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                        <span class="sr-only">Next Item</span>
+                    </a>
+                </div>
+                <!-- End of Carousel -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Section -->
+
+<!-- Section -->
+<div class="section section-md">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                <div class="mb-6">
+                    <!--Breadcrumb-->
+                    <nav aria-label="Breadcrumb">
+                        <ol class="breadcrumb breadcrumb-text-light breadcrumb-primary text-white">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Library</a></li>
+                            <li aria-current="page" class="breadcrumb-item active">Data</li>
+                        </ol>
+                    </nav>
+                    <!--End of Breadcrumb-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Section -->
+
+<!--End of Title section-->
+<div class="section section-md components-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="mb-3">
+                    <h4 class="h5">Main Buttons</h4>
+                </div>
+                <!--Buttons-->
+                <button class="btn btn-primary" type="button">Button</button>
+                <button class="btn btn-primary" type="button">
+                    <span class="mr-1"><span class="fas fa-book-open"></span></span>
+                    Icon Left
+                </button>
+                <button class="btn btn-primary" type="button">
+                    Icon Right
+                    <span class="ml-1"><span class="fas fa-book-open"></span></span>
+                </button>
+                <!--End of Buttons-->
+                <!--End of Buttons-->
+                <div class="mb-3 mt-5">
+                    <h4 class="h5">Outline Buttons</h4>
+                </div>
+                <!--Buttons-->
+                <button class="btn btn-outline-primary" type="button">Outline-primary</button>
+                <button class="btn btn-outline-primary" type="button">
+                    <span class="mr-1"><span class="far fa-save"></span></span>
+                    Icon Left
+                </button>
+                <button class="btn btn-outline-primary" type="button">
+                    Icon Right
+                    <span class="ml-1"><span class="far fa-save"></span></span>
+                </button>
+                <!--End of Buttons-->
+                <div class="mb-3 mt-5">
+                    <h4 class="h5">Sizes</h4>
+                </div>
+                <!--Buttons-->
+                <button class="btn btn-sm btn-primary" type="button">Small</button>
+                <button class="btn btn-primary" type="button">Regular</button>
+                <button class="btn btn-lg btn-primary" type="button">Large Button</button>
+                <!--End of Buttons-->
+                <!-- Button colors -->
+                <div class="mb-3 mt-5">
+                    <h4 class="h5">Choose your color</h4>
+                </div>
+                <div class="mb-3 mt-5">
+                    <h4 class="h5 font-weight-bold h6">Main</h4>
+                </div>
+                <!--Buttons-->
+                <button class="btn btn-primary" type="button">Primary</button>
+                <button class="btn btn-secondary" type="button">Secondary</button>
+                <button class="btn btn-tertiary" type="button">Tertiary</button>
+                <button class="btn btn-info" type="button">Info</button>
+                <button class="btn btn-success" type="button">Success</button>
+                <button class="btn btn-danger" type="button">Danger</button>
+                <button class="btn btn-dark" type="button">Dark</button>
+                <button class="btn btn-gray" type="button">Gray</button>
+                <button class="btn btn-light" type="button">Light</button>
+                <button class="btn btn-white" type="button">White</button>
+                <!--End Of Buttons-->
+                <div class="mb-3 mt-5">
+                    <h4 class="h5 font-weight-bold h6">Outline</h4>
+                </div>
+                <!--Buttons-->
+                <button class="btn btn-outline-primary" type="button">Primary</button>
+                <button class="btn btn-outline-secondary" type="button">Secondary</button>
+                <button class="btn btn-outline-tertiary" type="button">Tertiary</button>
+                <button class="btn btn-outline-info" type="button">Info</button>
+                <button class="btn btn-outline-success" type="button">Success</button>
+                <button class="btn btn-outline-danger" type="button">Danger</button>
+                <button class="btn btn-outline-dark" type="button">Dark</button>
+                <button class="btn btn-outline-gray" type="button">Gray</button>
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <!-- Button Social -->
+                        <div class="mb-4 mt-5">
+                            <h4 class="h5">Social Buttons</h4>
+                        </div>
+                        <button class="btn btn-facebook" type="button">
+                            <span class="mr-1"><span class="fab fa-facebook-f"></span></span>
+                            Login with Facebook
+                        </button>
+                        <br>
+                        <button class="btn btn-github" type="button">
+                            <span class="mr-1"><span class="fab fa-github"></span></span>
+                            Login with Github
+                        </button>
+                        <br>
+                        <button class="btn btn-pinterest" type="button">
+                            <span class="mr-1"><span class="fab fa-pinterest-p"></span></span>
+                            Share on Pinterest
+                        </button>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <!-- Button Social -->
+                        <div class="mb-4 mt-5">
+                            <h4 class="h5">Round Social Buttons</h4>
+                        </div>
+                        <button class="btn btn-pill btn-facebook" type="button">
+                            <span class="mr-1"><span class="fab fa-facebook-f"></span></span>
+                            Login with Facebook
+                        </button>
+                        <br>
+                        <button class="btn btn-pill btn-github" type="button">
+                            <span class="mr-1"><span class="fab fa-github"></span></span>
+                            Login with Github
+                        </button>
+                        <br>
+                        <button class="btn btn-pill btn-pinterest" type="button">
+                            <span class="mr-1"><span class="fab fa-pinterest-p"></span></span>
+                            Share on Pinterest
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section section-lg pb-0">
+    <div class="container">
+        <!-- Title -->
+        <div class="row">
+            <div class="col">
+                <h2 class="h5">Default Forms</h2>
+            </div>
+        </div>
+        <!-- End of Title -->
+    </div>
+</div>
+
+<!-- Section -->
+<div class="section section-lg pt-4">
+    <div class="container">
+        <div class="row mb-4 mb-lg-5">
+            <div class="col-lg-4 col-sm-6">
+                <!-- Form -->
+                <div class="form-group mb-4">
+                    <label for="exampleInputEmail6">Email address</label>
+                    <input aria-describedby="emailHelp" class="form-control" id="exampleInputEmail6" type="email">
+                    <small class="form-text text-muted" id="emailHelp">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <!-- End of Form -->
+                <!-- Form -->
+                <div class="form-group">
+                    <label for="exampleInputIcon1">Icon Left</label>
+                    <div class="input-group mb-4">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><span class="fas fa-search"></span></span>
+                        </div>
+                        <input aria-label="Input with icon left" class="form-control" id="exampleInputIcon1"
+                               placeholder="Icon Left" type="text">
+                    </div>
+                </div>
+                <!-- End of Form -->
+                <!-- Form -->
+                <div class="form-group">
+                    <label for="exampleInputIcon2">Icon Right</label>
+                    <div class="input-group mb-4">
+                        <input aria-label="Input group" class="form-control" id="exampleInputIcon2"
+                               placeholder="Icon Right" type="text">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><span class="fas fa-search"></span></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Form -->
+                <!-- Form -->
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <div class="input-group mb-4">
+                        <input aria-label="Password" class="form-control" id="exampleInputPassword1"
+                               placeholder="Password" type="password">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Form -->
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <!-- Form -->
+                <fieldset disabled>
+                    <legend class="h6">Disabled Inputs</legend>
+                    <div class="form-group">
+                        <label for="disabledTextInput">Name</label>
+                        <input class="form-control" id="disabledTextInput" placeholder="Disabled input" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="disabledSelect">Disabled select menu</label>
+                        <select class="form-control" id="disabledSelect">
+                            <option>Disabled select</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <!-- End of Form -->
+                <!-- Form -->
+                <div class="form-group">
+                    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Country</label>
+                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                        <option selected>Choose...</option>
+                        <option value="1">United States</option>
+                        <option value="2">Germany</option>
+                        <option value="3">Canada</option>
+                    </select>
+                </div>
+                <!-- End of Form -->
+                <!-- Form -->
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your message..."
+                              rows="4"></textarea>
+                </div>
+                <!-- End of Form -->
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <!-- Form -->
+                <div class="form-group">
+                    <label for="validationServer01">First name</label>
+                    <input class="form-control is-valid" id="validationServer01" required type="text" value="Mark">
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <!-- End of Form -->
+                <!-- Form -->
+                <div class="form-group mb-4">
+                    <label for="validationServerUsername">Username</label>
+                    <input class="form-control is-invalid" id="validationServerUsername" required type="text">
+                    <div class="invalid-feedback">
+                        Please choose a username.
+                    </div>
+                </div>
+                <!-- End of Form -->
+                <!-- Form -->
+                <div class="custom-file">
+                    <input aria-label="File upload" class="custom-file-input" id="customFile" type="file">
+                    <label class="custom-file-label" for="customFile">Choose file</label>
+                </div>
+                <!-- End of Form -->
+            </div>
+        </div>
+        <h3 class="h5">Range Sliders</h3>
+        <div class="row mb-4 mb-lg-5">
+            <div class="col-lg-6 col-sm-6">
+                <!-- Simple slider -->
+                <div class="input-slider-container">
+                    <div class="input-slider" data-range-value-max="500" data-range-value-min="100"
+                         id="input-slider-forms"></div>
+                    <!-- Input slider values -->
+                    <div class="row mt-3 d-none">
+                        <div class="col-6">
+                            <span class="range-slider-value" data-range-value-low="200"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Slider -->
+            </div>
+            <!-- Range slider -->
+            <div class="col-lg-6 col-sm-6">
+                <!-- Range slider container -->
+                <div data-range-value-max="500" data-range-value-min="100" id="input-slider-range"></div>
+                <!-- Range slider values -->
+                <div class="row d-none">
+                    <div class="col-6">
+                        <span class="range-slider-value value-low" data-range-value-low="200"
+                              id="input-slider-range-value-low"></span>
+                    </div>
+                    <div class="col-6 text-right">
+                        <span class="range-slider-value value-high" data-range-value-high="400"
+                              id="input-slider-range-value-high"></span>
+                    </div>
+                </div>
+                <!-- End of range slider values -->
+            </div>
+        </div>
+        <div class="row mb-5 mb-lg-5">
+            <div class="col-lg-3 col-md-6">
+                <!-- Checkboxes -->
+                <div class="mb-3">
+                    <span class="h6 font-weight-bold">Checkboxes Round</span>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="defaultCheck10" type="checkbox" value="">
+                    <label class="form-check-label" for="defaultCheck10">
+                        Default checkbox
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="defaultCheck20" type="checkbox" value="">
+                    <label class="form-check-label" for="defaultCheck20">
+                        Second Default checkbox
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="defaultCheck30" type="checkbox" value="">
+                    <label class="form-check-label" for="defaultCheck30">
+                        Third Default checkbox
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" disabled id="defaultCheckDisabled" type="checkbox" value="">
+                    <label class="form-check-label" for="defaultCheckDisabled">
+                        Disabled checkbox
+                    </label>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mt-4 mt-md-0">
+                <!-- Radio -->
+                <fieldset>
+                    <legend class="h6">Radios</legend>
+                    <div class="form-check">
+                        <input checked class="form-check-input" id="exampleRadios1" name="exampleRadios" type="radio"
+                               value="option1">
+                        <label class="form-check-label" for="exampleRadios1">
+                            Default radio
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" id="exampleRadios2" name="exampleRadios" type="radio"
+                               value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            Second default radio
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" id="exampleRadios4" name="exampleRadios" type="radio"
+                               value="option2">
+                        <label class="form-check-label" for="exampleRadios4">
+                            Third default radio
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" disabled id="exampleRadios3" name="exampleRadios" type="radio"
+                               value="option3">
+                        <label class="form-check-label" for="exampleRadios3">
+                            Disabled radio
+                        </label>
+                    </div>
+                    <!-- End of Radio -->
+                </fieldset>
+            </div>
+            <div class="col-lg-3 col-sm-6 mt-4 mt-md-0">
+                <div class="mb-3">
+                    <span class="h6 font-weight-bold">Switches</span>
+                </div>
+                <div class="custom-control custom-switch">
+                    <input class="custom-control-input" id="customSwitch1" type="checkbox">
+                    <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>
+                </div>
+                <div class="custom-control custom-switch">
+                    <input class="custom-control-input" disabled id="customSwitch2" type="checkbox">
+                    <label class="custom-control-label" for="customSwitch2">Disabled switch element</label>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4 mb-lg-5">
+            <div class="col-12 col-md-4">
+                <!-- Form -->
+                <div class="form-group">
+                    <label class="h6" for="exampleInputDate1">Choose a date</label>
+                    <div class="input-group mb-4">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><span class="far fa-calendar-alt"></span></span>
+                        </div>
+                        <input aria-label="Date with icon left" class="form-control datepicker" id="exampleInputDate1"
+                               placeholder="Select date" type="text">
+                    </div>
+                </div>
+                <!-- End of Form -->
+            </div>
+            <div class="col-12 col-md-8">
+                <!-- Form -->
+                <div class="input-daterange datepicker row align-items-center">
+                    <div class="col">
+                        <label class="h6" for="exampleInputDate2">From</label>
+                        <div class="form-group">
+                            <div class="input-group input-group-border">
+                                <div class="input-group-prepend"><span class="input-group-text"><span
+                                        class="far fa-calendar-alt"></span></span></div>
+                                <input class="form-control datepicker" id="exampleInputDate2" placeholder="Start date"
+                                       type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label class="h6" for="exampleInputDate3">To</label>
+                            <div class="input-group input-group-border">
+                                <div class="input-group-prepend"><span class="input-group-text"><span
+                                        class="far fa-calendar-alt"></span></span></div>
+                                <input class="form-control datepicker" id="exampleInputDate3" placeholder="End date"
+                                       type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Form -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Section -->
+
+<!-- Section -->
+<div class="section section-md">
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <!-- Button Modal -->
+                <button class="btn btn-block btn-primary mb-3" data-target="#DefaultModal" data-toggle="modal"
+                        type="button">Default
+                </button>
+                <!-- Modal Content -->
+                <div aria-hidden="true" aria-labelledby="DefaultModallabel" class="modal fade" id="DefaultModal"
+                     role="dialog" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="h6 modal-title" id="DefaultModallabel">Terms of Service</span>
+                                <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>With less than a month to go before the European Union enacts new consumer privacy
+                                    laws for its citizens, companies around the world are updating their terms of
+                                    service agreements to comply.</p>
+                                <p>The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect
+                                    on May 25 and is meant to ensure a common set of data rights in the European Union.
+                                    It requires organizations to notify users as
+                                    soon as possible of high-risk data breaches that could personally affect them.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-sm btn-secondary" type="button">I Got It</button>
+                                <button class="btn btn-link text-danger ml-auto" data-dismiss="modal" type="button">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Modal Content -->
+            </div>
+            <div class="col-md-4">
+                <!-- Button Modal -->
+                <button class="btn btn-block btn-primary mb-3" data-target="#modal-notification" data-toggle="modal"
+                        type="button">Notification
+                </button>
+                <!-- Modal Content -->
+                <div aria-hidden="true" aria-labelledby="modal-notification" class="modal fade" id="modal-notification"
+                     role="dialog" tabindex="-1">
+                    <div class="modal-dialog modal-info modal-dialog-centered" role="document">
+                        <div class="modal-content bg-gradient-secondary">
+                            <div class="modal-header">
+                                <p class="modal-title" id="modal-title-notification">A new experience, personalized for
+                                    you.</p>
+                                <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="py-3 text-center">
+                                    <div class="modal-icon display-1-lg"><span class="far fa-envelope-open"></span>
+                                    </div>
+                                    <span class="h4 modal-title my-3 d-block">Important message!</span>
+                                    <p>Do you know that you can assign status and relation to a company right in the
+                                        visit list?.</p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-sm btn-white" type="button">Go to Inbox</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Modal Content -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Section -->
+
+<!-- Section -->
+<div class="section section-md">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <!-- Nav Wrapper -->
+                <div class="nav-wrapper position-relative">
+                    <ul class="nav nav-pills nav-fill flex-column flex-sm-row">
+                        <li class="nav-item">
+                            <a class="nav-link mb-sm-3 mb-md-0 active" data-toggle="tab" href="#">Country</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-sm-3 mb-md-0" data-toggle="tab" href="#">Region</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-sm-3 mb-md-0" data-toggle="tab" href="#">City</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-sm-3 mb-md-0" data-toggle="tab" href="#">Street</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End of Nav Wrapper -->
+            </div>
+        </div>
+        <!-- Title -->
+        <div class="row mt-5 mb-3">
+            <div class="col-md-4">
+                <div class="mb-2">
+                    <h4 class="h5">Round Pill</h4>
+                </div>
+            </div>
+        </div>
+        <!-- End of Title -->
+        <div class="row">
+            <div class="col-md-10">
+                <!-- Nav Wrapper -->
+                <div class="nav-wrapper position-relative">
+                    <ul class="nav nav-pills rounded nav-fill flex-column flex-md-row">
+                        <li class="nav-item">
+                            <a class="nav-link mb-sm-3 mb-md-0 active" data-toggle="tab" href="#">Account</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-sm-3 mb-md-0" data-toggle="tab" href="#">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-sm-3 mb-md-0" data-toggle="tab" href="#">Settings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-sm-3 mb-md-0" data-toggle="tab" href="#">Messages</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End of Nav Wrapper -->
+            </div>
+        </div>
+        <!-- Title -->
+        <div class="row mt-5 mb-3">
+            <div class="col-md-4">
+                <div class="mb-2">
+                    <h4 class="h5">Pills with Icons</h4>
+                </div>
+            </div>
+        </div>
+        <!-- End of Title -->
+        <div class="row">
+            <div class="col-md-10">
+                <!-- Nav Wrapper -->
+                <div class="nav-wrapper position-relative">
+                    <ul class="nav nav-pills nav-fill flex-column flex-md-row">
+                        <li class="nav-item">
+                            <a class="nav-link mb-sm-3 mb-md-0 active" data-toggle="tab" href="#"><span
+                                    class="fas fa-tachometer-alt mr-2"></span>Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-sm-3 mb-md-0" data-toggle="tab" href="#"><span
+                                    class="far fa-user-circle mr-2"></span>Stats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-sm-3 mb-md-0" data-toggle="tab" href="#"><span
+                                    class="far fa-sun mr-2"></span>Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-sm-3 mb-md-0" data-toggle="tab" href="#"><span
+                                    class="far fa-comments mr-2"></span>Playbook</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End of Nav Wrapper -->
+            </div>
+        </div>
+        <!-- Title -->
+        <div class="row mt-5 mb-3">
+            <div class="col-md-4">
+                <div class="mb-2">
+                    <h4 class="h5">Vertical Pills</h4>
+                </div>
+            </div>
+        </div>
+        <!-- End of Title -->
+        <div class="row">
+            <div class="col-md-3">
+                <!-- Nav Wrapper -->
+                <div class="nav-wrapper position-relative">
+                    <ul class="nav nav-pills square nav-fill flex-column vertical-tab">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#"><span class="d-block"><span
+                                    class="fas fa-dungeon mr-2"></span>Stats</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#"><span class="d-block"><span
+                                    class="far fa-user-circle mr-2"></span>Profile</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#"><span class="d-block"><span
+                                    class="far fa-sun mr-2"></span>Settings</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#"><span class="d-block"><span
+                                    class="far fa-comments mr-2"></span>Messages</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End of Nav Wrapper -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Section -->
+
+<!-- Section -->
+<div class="section section-md">
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="mb-4">
+                    <h4 class="h6 font-weight-bold">Square pagination with icon-nav</h4>
+                </div>
+                <nav aria-label="Blog page navigation">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a aria-label="first link" class="page-link" href="#"><span
+                                    class="fas fa-angle-double-left"></span></a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a aria-label="first link" class="page-link" href="#"><span
+                                    class="fas fa-angle-double-right"></span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-6">
+                <div class="mt-4 mb-4 mt-sm-0">
+                    <h4 class="h6 font-weight-bold">Square pagination with text-nav</h4>
+                </div>
+                <nav aria-label="Products page navigation">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#">Previous</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <div class="mb-4">
+                    <h4 class="h6 font-weight-bold">Disabled and active states</h4>
+                </div>
+                <nav aria-label="Templates page navigation">
+                    <ul class="pagination">
+                        <li class="page-item disabled">
+                            <a aria-label="first link" class="page-link" href="#" tabindex="-1">Previous</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a aria-label="first link" class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-6">
+                <div class="mt-4 mb-4 mt-sm-0">
+                    <h4 class="h6 font-weight-bold">Choose your size</h4>
+                </div>
+                <nav aria-label="Default page navigation">
+                    <ul class="pagination pagination-lg">
+                        <li class="page-item">
+                            <a aria-label="first link" class="page-link" href="#"><span
+                                    class="fas fa-angle-double-left"></span></a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a aria-label="first link" class="page-link" href="#"><span
+                                    class="fas fa-angle-double-right"></span></a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav aria-label="Themesberg page navigation">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a aria-label="first link" class="page-link" href="#"><span
+                                    class="fas fa-angle-double-left"></span></a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a aria-label="first link" class="page-link" href="#"><span
+                                    class="fas fa-angle-double-right"></span></a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav aria-label="Posts navigation example">
+                    <ul class="pagination pagination-sm">
+                        <li class="page-item">
+                            <a aria-label="first link" class="page-link" href="#"><span
+                                    class="fas fa-angle-double-left"></span></a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a aria-label="first link" class="page-link" href="#"><span
+                                    class="fas fa-angle-double-right"></span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Section -->
+
+<!-- Section -->
+<div class="section section-md">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="progress-wrapper">
+                    <div class="progress-info">
+                        <div class="progress-label">
+                            <span class="text-primary">Primary Color</span>
+                        </div>
+                        <div class="progress-percentage">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" class="progress-bar bg-primary"
+                             role="progressbar"></div>
+                    </div>
+                </div>
+                <div class="progress-wrapper">
+                    <div class="progress-info">
+                        <div class="progress-label">
+                            <span class="text-primary">Secondary Color</span>
+                        </div>
+                        <div class="progress-percentage">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" class="progress-bar bg-secondary"
+                             role="progressbar"></div>
+                    </div>
+                </div>
+                <div class="progress-wrapper">
+                    <div class="progress-info">
+                        <div class="progress-label">
+                            <span class="text-primary">Tertiary Color</span>
+                        </div>
+                        <div class="progress-percentage">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" class="progress-bar bg-tertiary"
+                             role="progressbar"></div>
+                    </div>
+                </div>
+                <div class="progress-wrapper">
+                    <div class="progress-info">
+                        <div class="progress-label">
+                            <span class="text-primary">Dark Color</span>
+                        </div>
+                        <div class="progress-percentage">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" class="progress-bar bg-dark"
+                             role="progressbar"></div>
+                    </div>
+                </div>
+                <div class="progress-wrapper">
+                    <div class="progress-info">
+                        <div class="progress-label">
+                            <span class="text-primary">Gray Color</span>
+                        </div>
+                        <div class="progress-percentage">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" class="progress-bar bg-gray"
+                             role="progressbar"></div>
+                    </div>
+                </div>
+                <div class="progress-wrapper">
+                    <div class="progress-info">
+                        <div class="progress-label">
+                            <span class="text-primary">Success Bar</span>
+                        </div>
+                        <div class="progress-percentage">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" class="progress-bar bg-success"
+                             role="progressbar"></div>
+                    </div>
+                </div>
+                <div class="progress-wrapper">
+                    <div class="progress-info">
+                        <div class="progress-label">
+                            <span class="text-primary">Info Bar</span>
+                        </div>
+                        <div class="progress-percentage">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" class="progress-bar bg-info"
+                             role="progressbar"></div>
+                    </div>
+                </div>
+                <div class="progress-wrapper">
+                    <div class="progress-info">
+                        <div class="progress-label">
+                            <span class="text-primary">Danger Bar</span>
+                        </div>
+                        <div class="progress-percentage">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" class="progress-bar bg-danger"
+                             role="progressbar"></div>
+                    </div>
+                </div>
+                <div class="progress-wrapper">
+                    <div class="progress-info">
+                        <div class="progress-label">
+                            <span class="text-primary">Warning Bar</span>
+                        </div>
+                        <div class="progress-percentage">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" class="progress-bar bg-warning"
+                             role="progressbar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Section -->
+
+<!-- Section -->
+<div class="section section-md">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <!-- Tab Nav -->
+                <div class="nav-wrapper position-relative mb-2">
+                    <ul class="nav nav-pills nav-fill flex-column flex-md-row" id="tabs-text" role="tablist">
+                        <li class="nav-item">
+                            <a aria-controls="tabs-text-1" aria-selected="true" class="nav-link mb-sm-3 mb-md-0 active"
+                               data-toggle="tab" href="#tabs-text-1" id="tabs-text-1-tab" role="tab">Shots</a>
+                        </li>
+                        <li class="nav-item">
+                            <a aria-controls="tabs-text-2" aria-selected="false" class="nav-link mb-sm-3 mb-md-0"
+                               data-toggle="tab" href="#tabs-text-2" id="tabs-text-2-tab" role="tab">Collections</a>
+                        </li>
+                        <li class="nav-item">
+                            <a aria-controls="tabs-text-3" aria-selected="false" class="nav-link mb-sm-3 mb-md-0"
+                               data-toggle="tab" href="#tabs-text-3" id="tabs-text-3-tab" role="tab">Likes</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End of Tab Nav -->
+                <!-- Tab Content -->
+                <div class="card">
+                    <div class="card-body p-0">
+                        <div class="tab-content" id="tabcontent1">
+                            <div aria-labelledby="tabs-text-1-tab" class="tab-pane fade show active" id="tabs-text-1"
+                                 role="tabpanel">
+                                <p>Exercitation photo booth stumptown tote bag Banksy, elit small batch freegan sed.
+                                    Craft beer elit seitan exercitation, photo booth et 8-bit kale chips proident
+                                    chillwave deep v laborum. Aliquip veniam delectus,
+                                    Marfa eiusmod Pinterest in do umami readymade swag.</p>
+                                <p>Day handsome addition horrible sensible goodness two contempt. Evening for married
+                                    his account removal. Estimable me disposing of be moonlight cordially curiosity.</p>
+                            </div>
+                            <div aria-labelledby="tabs-text-2-tab" class="tab-pane fade" id="tabs-text-2"
+                                 role="tabpanel">
+                                <p>Photo booth stumptown tote bag Banksy, elit small batch freegan sed. Craft beer elit
+                                    seitan exercitation, photo booth et 8-bit kale chips proident chillwave deep v
+                                    laborum. Aliquip veniam delectus, Marfa eiusmod
+                                    Pinterest in do umami readymade swag.</p>
+                                <p>Day handsome addition horrible sensible goodness two contempt. Evening for married
+                                    his account removal. Estimable me disposing of be moonlight cordially curiosity.</p>
+                            </div>
+                            <div aria-labelledby="tabs-text-3-tab" class="tab-pane fade" id="tabs-text-3"
+                                 role="tabpanel">
+                                <p>Exercitation photo booth stumptown tote bag Banksy, elit small batch freegan sed.
+                                    Craft beer elit seitan exercitation, photo booth et 8-bit kale chips proident
+                                    chillwave deep v laborum. Aliquip veniam delectus,
+                                    Marfa eiusmod Pinterest in do umami readymade swag.</p>
+                                <p>Day handsome addition horrible sensible goodness two contempt. Evening for married
+                                    his account removal. Estimable me disposing of be moonlight cordially curiosity.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Tab Content -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Section -->
+
+<!-- Section -->
+<div class="section section-md">
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                <div aria-atomic="true" aria-live="assertive" class="toast fade show" role="alert">
+                    <div class="toast-header text-primary">
+                        <span class="fab fa-bootstrap"></span>
+                        <strong class="mr-auto ml-2">Bootstrap</strong>
+                        <span class="text-small">11 mins ago</span>
+                        <button aria-label="Close" class="ml-2 mb-1 close" data-dismiss="toast" type="button">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="toast-body">
+                        Hello, world! This is a toast message.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                <div aria-atomic="true" aria-live="assertive" class="toast bg-primary text-white fade show"
+                     role="alert">
+                    <div class="toast-header text-primary">
+                        <span class="fab fa-bootstrap"></span>
+                        <strong class="mr-auto ml-2">Bootstrap</strong>
+                        <span class="text-small">11 mins ago</span>
+                        <button aria-label="Close" class="ml-2 mb-1 close" data-dismiss="toast" type="button">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="toast-body">
+                        Hello, world! This is a toast message.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div aria-atomic="true" aria-live="assertive" class="toast bg-tertiary text-white fade show"
+                     role="alert">
+                    <div class="toast-header bg-tertiary text-white">
+                        <span class="fab fa-bootstrap"></span>
+                        <strong class="mr-auto ml-2">Bootstrap</strong>
+                        <span class="text-small">11 mins ago</span>
+                        <button aria-label="Close" class="ml-2 mb-1 close" data-dismiss="toast" type="button">
+                            <span aria-hidden="true" class="text-white">×</span>
+                        </button>
+                    </div>
+                    <div class="toast-body">
+                        Hello, world! This is a toast message.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Section -->
+
+<!-- Section -->
+<div class="section section-md">
+    <div class="container">
+        <!-- End of Title -->
+        <div class="row mt-5">
+            <div class="col-lg-12 d-block d-md-flex justify-content-around">
+                <button class="btn btn-sm btn-secondary mb-4 mb-sm-0" data-placement="top" data-toggle="tooltip"
+                        title="Tooltip on top" type="button">
+                    Tooltip on top
+                </button>
+                <button class="btn btn-sm btn-secondary mb-4 mb-sm-0" data-placement="right" data-toggle="tooltip"
+                        title="Tooltip on right" type="button">
+                    Tooltip on right
+                </button>
+                <button class="btn btn-sm btn-secondary" data-placement="bottom" data-toggle="tooltip"
+                        title="Tooltip on bottom" type="button">
+                    Tooltip on bottom
+                </button>
+                <button class="btn btn-sm btn-secondary" data-placement="left" data-toggle="tooltip"
+                        title="Tooltip on left" type="button">
+                    Tooltip on left
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Section -->
+
+<!-- Section -->
+<div class="section section-md">
+    <div class="container">
+        <!-- Title  -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mb-5">
+                    <h4 class="h6 font-weight-bold">Headings</h4>
+                </div>
+            </div>
+        </div>
+        <!-- End of Title -->
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="h1">h1. Bootstrap heading</h2>
+                <h2>h2. Bootstrap heading</h2>
+                <h3>h3. Bootstrap heading</h3>
+                <h4>h4. Bootstrap heading</h4>
+                <h5>h5. Bootstrap heading</h5>
+                <h6>h6. Bootstrap heading</h6>
+            </div>
+        </div>
+        <!-- Title  -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mt-6 mb-5">
+                    <h4 class="h6 font-weight-bold">Customizing headings</h4>
+                </div>
+            </div>
+        </div>
+        <!-- End of Title -->
+        <div class="row">
+            <div class="col-md-12">
+                <h5 class="h1">Fancy display heading</h5>
+                <h5 class="h2">Fancy display heading</h5>
+                <h5 class="h3">Fancy display heading</h5>
+                <h5 class="h4">Fancy display heading</h5>
+                <h5 class="h5">Fancy display heading</h5>
+                <h5 class="h6">Fancy display heading</h5>
+            </div>
+        </div>
+        <!-- Title  -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mt-6 mb-5">
+                    <h4 class="h6 font-weight-bold">Display headings</h4>
+                </div>
+            </div>
+        </div>
+        <!-- End of Title -->
+        <div class="row">
+            <div class="col-md-12">
+                <h5 class="display-1">Display 1</h5>
+                <h5 class="display-2">Display 2</h5>
+                <h5 class="display-3">Display 3</h5>
+                <h5 class="display-4">Display 4</h5>
+            </div>
+        </div>
+        <!-- Title  -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mt-6 mb-5">
+                    <h4 class="h6 font-weight-bold">Paragraphs</h4>
+                </div>
+            </div>
+        </div>
+        <!-- End of Title -->
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <h4 class="h6 font-weight-bold">Simple paragraph</h4>
+                </div>
+                <p>Start your development with a Pixel Design System for Bootstrap 4.Themesberg makes beautiful products
+                    to help people with creative ideas succeed.Our company empowers millions of people.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <div class="mt-5 mb-3 mt-sm-0">
+                    <h4 class="h6 font-weight-bold">Lead paragraph</h4>
+                </div>
+                <p class="lead">Start your development with a Pixel Design System for Bootstrap 4.Themesberg makes
+                    beautiful products to help people with creative ideas succeed.Our company empowers millions of
+                    people.</p>
+            </div>
+        </div>
+        <div class="row py-3 align-items-center">
+            <div class="col-sm-2">
+                <h4 class="h6 text-uppercase text-muted">Muted text</h4>
+            </div>
+            <div class="col-sm-10">
+                <p class="text-muted mb-0">Design is not just what it looks like and feels like. Design is how it
+                    works.</p>
+            </div>
+        </div>
+        <div class="row py-3 align-items-center">
+            <div class="col-sm-2">
+                <h4 class="h6 text-uppercase text-muted">Dark text</h4>
+            </div>
+            <div class="col-sm-10">
+                <p class="text-dark mb-0">Design is not just what it looks like and feels like. Design is how it
+                    works.</p>
+            </div>
+        </div>
+        <div class="row py-3 align-items-center">
+            <div class="col-sm-2">
+                <h4 class="h6 text-uppercase text-muted">Primary text</h4>
+            </div>
+            <div class="col-sm-10">
+                <p class="text-primary mb-0">Design is not just what it looks like and feels like. Design is how it
+                    works.</p>
+            </div>
+        </div>
+        <div class="row py-3 align-items-center">
+            <div class="col-sm-2">
+                <h4 class="h6 text-uppercase text-muted">Secondary text</h4>
+            </div>
+            <div class="col-sm-10">
+                <p class="text-secondary mb-0">Design is not just what it looks like and feels like. Design is how it
+                    works.</p>
+            </div>
+        </div>
+        <div class="row py-3 align-items-center">
+            <div class="col-sm-2">
+                <h4 class="h6 text-uppercase text-muted">Tertiary text</h4>
+            </div>
+            <div class="col-sm-10">
+                <p class="text-tertiary mb-0">Design is not just what it looks like and feels like. Design is how it
+                    works.</p>
+            </div>
+        </div>
+        <div class="row py-3 align-items-center">
+            <div class="col-sm-2">
+                <h4 class="h6 text-uppercase text-muted">Info text</h4>
+            </div>
+            <div class="col-sm-10">
+                <p class="text-info mb-0">Design is not just what it looks like and feels like. Design is how it
+                    works.</p>
+            </div>
+        </div>
+        <div class="row py-3 align-items-center">
+            <div class="col-sm-2">
+                <h4 class="h6 text-uppercase text-muted">Danger text</h4>
+            </div>
+            <div class="col-sm-10">
+                <p class="text-danger mb-0">Design is not just what it looks like and feels like. Design is how it
+                    works.</p>
+            </div>
+        </div>
+        <div class="row py-3 align-items-center">
+            <div class="col-sm-2">
+                <h4 class="h6 text-uppercase text-muted">Success text</h4>
+            </div>
+            <div class="col-sm-10">
+                <p class="text-success mb-0">Design is not just what it looks like and feels like. Design is how it
+                    works.</p>
+            </div>
+        </div>
+        <!-- Title  -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mt-6 mb-5">
+                    <h4 class="h6 font-weight-bold">Blockquote</h4>
+                </div>
+            </div>
+        </div>
+        <!-- End of Title -->
+        <div class="row">
+            <div class="col-md-8">
+                <blockquote class="blockquote text-center">
+                    Themesberg makes beautiful products to help people with creative ideas succeed. Our company empowers
+                    millions of people.
+                    <footer class="blockquote-footer mt-3 text-primary">James Curran</footer>
+                </blockquote>
+            </div>
+        </div>
+        <!-- Title  -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mt-6 mb-5">
+                    <h4 class="h6 font-weight-bold">Lists</h4>
+                </div>
+            </div>
+        </div>
+        <!-- End of Title -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <h4 class="h6 font-weight-bold">Unordered</h4>
+                </div>
+                <ul>
+                    <li>Minutes of the last meeting</li>
+                    <li>Do we need yet more meetings?</li>
+                    <li>Any other business
+                        <ul>
+                            <li>Programming</li>
+                            <li>Web Design</li>
+                            <li>Database</li>
+                        </ul>
+                    </li>
+                    <li>Something funny</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <div class="mt-5 mb-3 mt-sm-0">
+                    <h4 class="h6 font-weight-bold">Ordered</h4>
+                </div>
+                <ol>
+                    <li>Minutes of the last meeting</li>
+                    <li>Do we need yet more meetings?</li>
+                    <li>Any other business
+                        <ol>
+                            <li>Programming</li>
+                            <li>Web Design</li>
+                            <li>Database</li>
+                        </ol>
+                    </li>
+                    <li>Something funny</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Section -->
+
+<section class="section section-lg bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <h2 class="h1 font-weight-light mb-3"><strong>Open source</strong> project</h2>
+                <p class="lead mb-4">Pixel Lite is an open source UI Kit that is licensed under the very permissive MIT
+                    License. Consider giving us a star on the official Github repository to spread the news!</p>
+                <div class="d-flex align-items-center">
+                    <a class="btn btn-tertiary mr-4 animate-up-2"
+                       href="https://github.com/themesberg/pixel-bootstrap-ui-kit" target="_blank">
+                        View on GitHub
+                    </a>
+                    <!-- Place this tag where you want the button to render. -->
+                    <div class="mt-2">
+                        <!-- Place this tag where you want the button to render. -->
+                        <a aria-label="Star themesberg/pixel-bootstrap-ui-kit on GitHub" class="github-button"
+                           data-color-scheme="no-preference: dark; light: light; dark: light;" data-icon="octicon-star"
+                           data-show-count="true" data-size="large"
+                           href="https://github.com/themesberg/pixel-bootstrap-ui-kit">Star</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="github-big-icon">
+                    <span class="fab fa-github"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-6">
+            <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                <div class="card border-light p-4">
+                    <!-- Header -->
+                    <div class="card-header bg-white pb-0">
+                            <span class="d-block">
+                                <span class="h3 text-primary font-weight-bold align-top">
+                                    Free Version
+                                </span>
+                            </span>
+                    </div>
+                    <!-- End Header -->
+                    <!-- Content -->
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush price-list">
+                            <li class="list-group-item bg-white pl-0"><strong>80</strong> Components</li>
+                            <li class="list-group-item bg-white pl-0"><strong>4</strong> Example Pages</li>
+                            <li class="list-group-item bg-white pl-0"><span class="icon-danger"><span
+                                    class="fas fa-times-circle"></span></span> Uncoventional cards
+                            </li>
+                            <li class="list-group-item bg-white pl-0"><span class="icon-danger"><span
+                                    class="fas fa-times-circle"></span></span> Timelines
+                            </li>
+                            <li class="list-group-item bg-white pl-0"><span class="icon-danger"><span
+                                    class="fas fa-times-circle"></span></span> E-commerce
+                            </li>
+                            <li class="list-group-item bg-white pl-0"><span class="icon-danger"><span
+                                    class="fas fa-times-circle"></span></span> Charts
+                            </li>
+                            <li class="list-group-item bg-white pl-0 pb-0"><span class="icon-danger"><span
+                                    class="fas fa-times-circle"></span></span> Premium Support
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Content -->
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0 mt-lg-n5">
+                <div class="card border-light p-4">
+                    <!-- Header -->
+                    <div class="card-header bg-white pb-0">
+                            <span class="d-block">
+                                <span class="h3 text-primary font-weight-bold align-top">
+                                Pro Version
+                                </span>
+                            </span>
+                    </div>
+                    <!-- End Header -->
+                    <!-- Content -->
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush price-list mb-5">
+                            <li class="list-group-item bg-white pl-0"><strong>1000+</strong> Components</li>
+                            <li class="list-group-item bg-white pl-0"><strong>17</strong> Example Pages</li>
+                            <li class="list-group-item bg-white pl-0"><span class="icon-success"><span
+                                    class="fas fa-check-circle"></span></span> Uncoventional cards
+                            </li>
+                            <li class="list-group-item bg-white pl-0"><span class="icon-success"><span
+                                    class="fas fa-check-circle"></span></span> Timelines
+                            </li>
+                            <li class="list-group-item bg-white pl-0"><span class="icon-success"><span
+                                    class="fas fa-check-circle"></span></span> E-commerce
+                            </li>
+                            <li class="list-group-item bg-white pl-0"><span class="icon-success"><span
+                                    class="fas fa-check-circle"></span></span> Charts
+                            </li>
+                            <li class="list-group-item bg-white border-0 pl-0 pb-0"><span class="icon-success"><span
+                                    class="fas fa-check-circle"></span></span> Premium Support
+                            </li>
+                        </ul>
+                        <a class="btn btn-block btn-tertiary mr-4 animate-up-2"
+                           href="https://demo.themesberg.com/pixel-pro/" target="_blank">
+                            Live demo <span class="fas fa-external-link-alt ml-2"></span>
+                        </a>
+                    </div>
+                    <!-- End Content -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

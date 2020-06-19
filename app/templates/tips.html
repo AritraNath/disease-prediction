@@ -1,0 +1,173 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Presentation {% endblock %}
+{% block stylesheets %}
+<style>
+    #rightDiv.img {
+        max-height: 100px;
+        max-width: 100px;
+        float: right;
+    }
+
+    p {
+        font-size: 20px;
+        color: antiquewhite;
+    }
+
+    h1 {
+        font-weight: bolder;
+        text-decoration-color: red;
+        color: darkgray;
+    }
+
+    h2 {
+        font-weight: bolder;
+        text-decoration-color: red;
+        color: darkgray;
+    }
+
+    h3 {
+        font-weight: bolder;
+        text-decoration-color: red;
+        color: darkgray;
+    }
+
+    li {
+        font-family: Century Gothic, serif;
+        font-size: 18px;
+        color: aliceblue;
+    }
+
+    #hedpic img {
+        max-height: 200px;
+        max-width: 600px;
+        vertical-align: top;
+    }
+
+    .name {
+        font-size: 20px;
+        color: darkgray;
+    }
+</style>
+{% endblock stylesheets %}
+
+{% block content %}
+<section class="section section bg-primary pb-11 pb-lg-12 text-white overflow-hidden z-2">
+    <header style="padding: 5px">
+        <div class="container" style="margin-top: 50px">
+
+            <h1>Best health tips to be followed. </h1>
+            <br>
+
+
+            <div class="row">
+                <div class="col-sm-6" id="leftDiv">
+                    <br>
+                    <h3>Never skip your breakfst</h3>
+                    <p>Studies show that eating a proper breakfast is one of the most positive things you can do if you
+                        are
+                        trying to lose weight. Breakfast skippers tend to gain weight. A balanced breakfast includes
+                        fresh fruit
+                        or fruit juice, a high-fibre breakfast cereal, low-fat milk or yoghurt, wholewheat toast, and a
+                        boiled
+                        egg.</p>
+                    <br>
+                    <h3>Brush up on hygiene.</h3>
+                    <p>Many people don't know how to brush their teeth properly. Improper brushing can cause as much
+                        damage to
+                        the teeth and gums as not brushing at all. Lots of people don’t brush for long enough, don’t
+                        floss and
+                        don’t see a dentist regularly. Hold your toothbrush in the same way that would hold a pencil,
+                        and brush
+                        for at least two minutes.
+                    </p><br>
+                    <h3>Bone up daily</h3>
+                    <p>Get your daily calcium by popping a tab, chugging milk or eating yoghurt. It’ll keep your bones
+                        strong.
+                        Remember that your bone density declines after the age of 30. You need at least 200 milligrams
+                        daily,
+                        which you should combine with magnesium, or it simply won’t be absorbed.</p><br>
+
+                    <h3>I say tomato.</h3>
+                    <p>Tomato is a superstar in the fruit and veggie pantheon. Tomatoes contain lycopene, a powerful
+                        cancer
+                        fighter. They’re also rich in vitamin C. The good news is that cooked tomatoes are also
+                        nutritious, so
+                        use them in pasta, soups and casseroles, as well as in salads.
+                    </p><br>
+                    <h3>A for Away</h3>
+                    <p> This vitamin, and beta carotene, help to boost immunity against disease. It also assists in the
+                        healing
+                        process of diseases such as measles and is recommended by the WHO. Good natural sources of
+                        vitamin A are
+                        kidneys, liver, dairy products, green and yellow vegetables, pawpaw, mangoes, chilli pepper, red
+                        sorrel
+                        and red palm oil.</p>
+                    <br>
+                    <h3>Do your weights workout first</h3>
+                    <p> Experts say weight training should be done first, because it's a higher intensity exercise
+                        compared to
+                        cardio. Your body is better able to handle weight training early in the workout because you're
+                        fresh and
+                        you have the energy you need to work it. </p><br>
+                    <h3> Burn fat during intervals</h3>
+                    <p>To improve your fitness quickly and lose weight, harness the joys of interval training. Set the
+                        treadmill
+                        or step machine on the interval programme, where your speed and workload varies from minute to
+                        minute.
+                        Build up gradually, every minute and return to the starting speed. Repeat this routine. Not only
+                        will it
+                        be less monotonous, but you can train for a shorter time and achieve greater results.</p><br>
+                    <h3>Stop fuming</h3>
+                    <p> Don’t smoke and if you smoke already, do everything in your power to quit. Don’t buy into that
+                        my-granny-smoked-and-lived-to-be-90 crud – not even the tobacco giants believe it. Apart from
+                        the
+                        well-known risks of heart disease and cancer, orthopaedic surgeons have found that smoking
+                        accelerates
+                        bone density loss and constricts blood flow. So you could live to be a 90-year-old amputee who
+                        smells of
+                        stale tobacco smoke. Unsexy.</p><br>
+                    <h3>Laugh and Cry.</h3>
+                    <p>Having a good sob is reputed to be good for you. So is laughter, which has been shown to help
+                        heal
+                        bodies, as well as broken hearts. Studies in Japan indicate that laughter boosts the immune
+                        system and
+                        helps the body shake off allergic reactions.</p>
+                    <br>
+
+                </div>
+                <div class="col-sm-6" id="rightDiv">
+                    <br><br><br>
+                    <a href="#"><img src="/static/assets/img/breakfast1.jpg"></a>
+                    <br><br><br>
+                    <a href="#"><img src="/static/assets/img/brush.jpg"></a>
+                    <br><br><br>
+                    <a href="#"><img src="/static/assets/img/milk1.jpg"></a>
+                    <br><br><br>
+                    <a href="#"><img src="/static/assets/img/tomatoes.jpg"></a>
+                    <br><br><br><br><br>
+                    <a href="#"><img src="/static/assets/img/vitaminA.jpg"></a>
+                    <br><br><br><br><br>
+                    <a href="#"><img src="/static/assets/img/weight1.jpg"></a>
+                    <br><br><br><br><br>
+                    <a href="#"><img src="/static/assets/img/cardio.jpg"></a>
+                    <br><br><br><br><br><br>
+                    <a href="#"><img src="/static/assets/img/smoking.jpg"></a>
+                    <br><br><br><br><br><br>
+                    <a href="#"><img src="/static/assets/img/laugh.jpg"></a>
+                    <br><br><br>
+                </div>
+
+
+            </div>
+
+            </form>
+        </div>
+        </div>
+
+    </header>
+</section>
+{% endblock content %}
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+{% endblock javascripts %}

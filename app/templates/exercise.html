@@ -1,0 +1,180 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Presentation {% endblock %}
+{% block stylesheets %}
+<style>
+    #rightDiv.img {
+        max-height: 100px;
+        max-width: 100px;
+        float: right;
+    }
+
+    p {
+
+        font-size: 20px;
+        color: aliceblue;
+    }
+
+    h1 {
+        font-weight: bolder;
+        text-decoration-color: red;
+        color: darkgrey;
+    }
+
+    h2 {
+        font-weight: bolder;
+        text-decoration-color: red;
+        color: darkgrey;
+
+    }
+
+    h3 {
+        font-weight: bolder;
+        text-decoration-color: red;
+        color: darkgrey;
+    }
+
+
+    li {
+        /* font-family:georgia;*/
+        font-family: Century Gothic, serif;
+        font-size: 18px;
+        color: aliceblue;
+    }
+
+    #hedpic img {
+        max-height: 200px;
+        max-width: 600px;
+
+        vertical-align: top;
+    }
+</style>
+{% endblock stylesheets %}
+
+{% block content %}
+<section class="section section bg-primary pb-11 pb-lg-12 text-white overflow-hidden z-2">
+    <header style="padding: 5px">
+        <div class="container" style="margin-top: 50px">
+
+            <h1>Why to include YOGA in daily routine.</h1>
+            <br>
+
+
+            <div class="row">
+                <div class="col-sm-6" id="leftDiv">
+                    <br>
+                    <p>If you are looking at losing weight, developing a strong and flexible body, having beautiful
+                        glowing
+                        skin, or being at peace, Yoga can help you achieve it all. Yoga is often partially understood as
+                        being
+                        limited to asanas or poses, and its benefits are only perceived to be at the physical level.
+                        However, we
+                        fail to realize the immense benefits yoga offers in uniting the body, mind, and breath. When you
+                        are in
+                        harmony, the journey through life is calmer, happier and more fulfilling..</p>
+                    <h2>What does Yoga has to offer ?</h2>
+                    <ul>
+                        <li>All-round fitness</li>
+                        <li>Weight loss</li>
+                        <li>Stress relief</li>
+                        <li>Inner peace</li>
+                        <li>Improved immunity</li>
+                        <li>Better relationships</li>
+                        <li>Better flexibility & posture</li>
+                        <li>Living with greater awareness</li>
+
+                    </ul>
+                    <br>
+                    <h2>Top 8 benifits of yoga.</h2>
+                    <h3> Yoga for all-round fitness</h3>
+                    <p>As Gurudev Sri Sri Ravi Shankar puts it, “Health is not a mere absence of disease. It is a
+                        dynamic
+                        expression of life – in terms of how joyful, loving and enthusiastic you are.” Yoga poses,
+                        pranayama
+                        (breathing techniques) and meditation are a holistic fitness package. The benefits accrued by
+                        being a
+                        regular practitioner are numerous. Some very discernible ones are:</p>
+                    <ul>
+                        <li>Improves health</li>
+                        <li>Gives mental strength</li>
+                        <li>Improves physical strength</li>
+                        <li>Protects from injury</li>
+                        <li>Detoxifies the body</li>
+                    </ul>
+                    <br>
+                    <h3>Yoga for weight loss</h3>
+                    <p>Sun Salutation and Kapal Bhati pranayama are highly useful for losing weight. Moreover, with
+                        regular
+                        practice of yoga, we tend to become more sensitive to our body and its needs. This, in turn,
+                        helps keep
+                        a check on our food intake and body weight.</p>
+                    <br>
+                    <h3>Yoga for stress relief</h3>
+                    <p>A few minutes of yoga during the day can be a great way to get rid of stress that accumulates
+                        daily - in
+                        both the body and mind. Yoga postures, pranayama and meditation are effective techniques to
+                        release
+                        stress.</p>
+                    <br>
+                    <h3>Yoga for inner peace</h3>
+                    <p>We all love to visit peaceful, serene spots that are rich in natural beauty. Little do we realize
+                        that
+                        peace can be found right within us and we can take a mini-vacation to experience this any time
+                        of the
+                        day! Benefit from a small holiday every day with yoga and meditation. Yoga is also one of the
+                        best ways
+                        to calm a disturbed mind.</p>
+                    <br>
+                    <h3>Yoga to improve immunity</h3>
+                    <p>Our system is a seamless blend of the body, mind and spirit. An irregularity in the body affects
+                        the mind
+                        and similarly unpleasantness or restlessness in the mind can manifest as an ailment in the body.
+                        Yoga
+                        poses help massage organs and strengthens muscles; while breathing techniques and meditation
+                        release
+                        stress and improve immunity.</p>
+                    <br>
+                    <h3>Yoga for better relationships</h3>
+                    <p>Yoga can even help improve your relationship with your loved ones. A mind that is relaxed, happy
+                        and
+                        contented is better able to deal with sensitive relationship matters. Use Yoga and meditation to
+                        keep
+                        the mind happy and peaceful and watch how your relations with those around you blossom.</p>
+                    <br>
+                    <h3>Yoga for better flexibility and posture</h3>
+                    <p>Yoga must become part of your daily routine to get a body that is strong, supple and flexible.
+                        Regular
+                        yoga practice, stretches and tones the body muscles and also makes them strong. It also helps
+                        improve
+                        your body posture when you stand, sit, sleep or walk. This would, in turn, help relieve you of
+                        body ache
+                        due to incorrect posture.</p>
+                    <br>
+                    <h3> Yoga to live with greater awareness</h3>
+                    <p>The mind is constantly involved in activity – swinging from the past to the future but never
+                        staying in
+                        the present. By simply being aware of this tendency of the mind, we can save ourselves from
+                        getting
+                        stressed or worked up. Yoga and pranayama help create that awareness and bring the mind back to
+                        the
+                        present moment, where it can stay happy and focused.</p>
+                    <br><br>
+                </div>
+                <div class="col-sm-6" id="rightDiv">
+                    <a href="#"><img src="/static/assets/img/yoga.jpg"></a>
+
+                </div>
+
+
+            </div>
+
+            </form>
+        </div>
+        </div>
+
+    </header>
+</section>
+{% endblock content %}
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+{% endblock javascripts %}

@@ -1,0 +1,94 @@
+<!--
+
+=========================================================
+* Pixel Lite Bootstrap Design System
+=========================================================
+
+* Product Page: https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit
+* Copyright 2019 Themesberg (https://www.themesberg.com)
+* License Themesberg (Crafty Dwarf LLC) (https://themesberg.com/licensing)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <!-- Primary Meta Tags -->
+    <title>
+        Health Prediction - {% block title %}{% endblock %} | CodeElites
+    </title>
+
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta content="Pixel Lite - Free Bootstrap 4 UI Kit" name="title">
+    <meta content="Themesberg" name="author">
+    <meta content="Open source and accessibility first Bootstrap Design System featuring over 80 premium components and 4 example pages."
+          name="description">
+    <meta content="bootstrap, Bootstrap Design System, accessiblity, accessibility first, open source, open source Bootstrap Design System"
+          name="keywords"/>
+    <link href="https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit" rel="canonical">
+
+    <!-- Open Graph / Facebook -->
+    <meta content="website" property="og:type">
+    <meta content="https://demo.themesberg.com/pixel-lite" property="og:url">
+    <meta content="Pixel Lite - Free Bootstrap 4 UI Kit" property="og:title">
+    <meta content="Open source and accessibility oriented Bootstrap Design System featuring over 80 premium components and 4 example pages."
+          property="og:description">
+    <meta content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-preview.jpg"
+          property="og:image">
+
+    <!-- Twitter -->
+    <meta content="summary_large_image" property="twitter:card">
+    <meta content="https://demo.themesberg.com/pixel-lite" property="twitter:url">
+    <meta content="Pixel Lite - Free Bootstrap 4 UI Kit" property="twitter:title">
+    <meta content="Open source and accessibility oriented Bootstrap Design System featuring over 80 premium components and 4 example pages."
+          property="twitter:description">
+    <meta content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/pixel-lite-preview.jpg"
+          property="twitter:image">
+
+    <!-- Favicon -->
+    <link href="/static/assets/img/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="/static/assets/img/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="/static/assets/img/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="/static/assets/img/favicon/site.webmanifest" rel="manifest">
+    <link color="#ffffff" href="/static/assets/img/favicon/safari-pinned-tab.svg" rel="mask-icon">
+    <meta content="#ffffff" name="msapplication-TileColor">
+    <meta content="#ffffff" name="theme-color">
+
+    <!-- Fontawesome -->
+    <link href="/static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Pixel CSS -->
+    <link href="/static/assets/css/pixel.css" rel="stylesheet" type="text/css">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400;1,600&display=swap"
+          rel="stylesheet">
+    {% block stylesheets %}{% endblock stylesheets %}
+
+</head>
+
+<body>
+
+<main>
+
+    {% include 'includes/preloader.html' %}
+
+    {% block content %}{% endblock content %}
+
+</main>
+
+{% include 'includes/scripts.html' %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
+
+</body>
+
+</html>

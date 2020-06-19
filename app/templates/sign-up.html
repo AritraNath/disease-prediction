@@ -1,0 +1,101 @@
+{% extends "layouts/base-fullscreen.html" %}
+
+{% block title %} Sign UP {% endblock %}
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+<!-- Section -->
+<section class="min-vh-100 d-flex align-items-center bg-soft">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 d-flex align-items-center justify-content-center">
+                <div class="signin-inner mt-3 mt-lg-0 bg-white shadow-soft border rounded border-light p-4 p-lg-5 w-100 fmxw-500">
+                    <div class="text-center text-md-center mb-4 mt-md-0">
+                        <h1 class="mb-0 h3">Create an account</h1>
+                    </div>
+                    <form action="#">
+                        <!-- Form -->
+                        <div class="form-group">
+                            <label for="exampleInputIcon4">Your email</label>
+                            <div class="input-group mb-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><span class="fas fa-envelope"></span></span>
+                                </div>
+                                <input aria-label="email adress" class="form-control" id="exampleInputIcon4"
+                                       placeholder="example@company.com" required type="text">
+                            </div>
+                        </div>
+                        <!-- End of Form -->
+                        <div class="form-group">
+                            <!-- Form -->
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <div class="input-group mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
+                                    </div>
+                                    <input aria-label="Password" class="form-control" id="password"
+                                           placeholder="Password" required type="password">
+                                </div>
+                            </div>
+                            <!-- End of Form -->
+                            <!-- Form -->
+                            <div class="form-group">
+                                <label for="passwordConfirm">Confirm Password</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
+                                    </div>
+                                    <input aria-label="Password" class="form-control" id="passwordConfirm"
+                                           placeholder="Confirm password" required type="password">
+                                </div>
+                            </div>
+                            <!-- End of Form -->
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" id="defaultCheck6" type="checkbox" value="">
+                                <label class="form-check-label" for="defaultCheck6">
+                                    I agree to the <a href="#">terms and conditions</a>
+                                </label>
+                            </div>
+                        </div>
+                        <button class="btn btn-block btn-primary" type="submit">Sign in</button>
+                    </form>
+                    <div class="mt-3 mb-4 text-center">
+                        <span class="font-weight-normal">or</span>
+                    </div>
+                    <div class="btn-wrapper my-4 text-center">
+                        <button aria-label="facebook button"
+                                class="btn btn-icon-only btn-pill btn-outline-light text-facebook mr-2"
+                                title="facebook button" type="button">
+                            <span aria-hidden="true" class="fab fa-facebook-f"></span>
+                        </button>
+                        <button aria-label="twitter button"
+                                class="btn btn-icon-only btn-pill btn-outline-light text-twitter mr-2"
+                                title="twitter button" type="button">
+                            <span aria-hidden="true" class="fab fa-twitter"></span>
+                        </button>
+                        <button aria-label="github button"
+                                class="btn btn-icon-only btn-pill btn-outline-light text-facebook" title="github button"
+                                type="button">
+                            <span aria-hidden="true" class="fab fa-github"></span>
+                        </button>
+                    </div>
+                    <div class="d-block d-sm-flex justify-content-center align-items-center mt-4">
+                            <span class="font-weight-normal">
+                                Already have an account?
+                                <a class="font-weight-bold" href="./sign-in.html">Login here</a>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

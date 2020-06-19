@@ -1,0 +1,63 @@
+<header class="header-global">
+    <nav aria-label="Primary navigation"
+         class="navbar navbar-main navbar-expand-lg navbar-theme-primary headroom navbar-dark" id="navbar-main">
+        <div class="container position-relative">
+            <a class="navbar-brand mr-lg-5" href="./index.html">
+                <img alt="Logo Pixel Light" class="navbar-brand-dark" src="/static/assets/img/brand/light.svg">
+                <img alt="Logo Pixel Dark" class="navbar-brand-light" src="/static/assets/img/brand/dark.svg">
+            </a>
+            <div class="navbar-collapse collapse" id="navbar_global">
+                <div class="navbar-collapse-header">
+                    <div class="row">
+                        <div class="col-6 collapse-brand">
+                            <a href="/#features">
+                                <img alt="Logo Pixel" src="/static/assets/img/brand/dark.svg">
+                            </a>
+                        </div>
+                        <div class="col-6 collapse-close">
+                            <a aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation"
+                               class="fas fa-times" data-target="#navbar_global" data-toggle="collapse"
+                               href="#navbar_global"></a>
+                        </div>
+                    </div>
+                </div>
+                <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+
+                    <a aria-controls="pages_submenu" aria-expanded="false" aria-label="Toggle pages menu item"
+                       class="nav-link" href="/diet.html" style="font-family:'Times New Roman;">Diet
+                    </a>
+
+                    <a aria-controls="components_menu_item" aria-expanded="false"
+                       aria-label="Toggle components menu item" class="nav-link" href="/exercise.html"
+                       style="font-family:'Times New Roman;">Exercises
+
+                    </a>
+
+                    <a aria-controls="support_submenu" aria-expanded="false" aria-label="Toggle support menu item"
+                       class="nav-link" href="/tips.html" style="font-family:'Times New Roman;">Tips
+
+                    </a>
+
+                </ul>
+            </div>
+            <div class="d-flex align-items-center">
+                    <span class="d-none d-md-inline"> 
+                        <a class="btn btn-tertiary animate-up-2"
+                           href="doctorsList.html" style="margin-right: 20px;" target="_blank">Doctors List</a>
+                      </span>
+                <span class="d-none d-md-inline">
+                      <a class="btn btn-tertiary animate-up-2"
+                         href="https://github.com/app-generator/flask-pixel-bootstrap-uikit" target="_blank">Sources</a>
+                    </span>
+
+                <a href={{ url_for('logout') }} class="btn btn-outline-soft ml-md-3 animate-up-2">
+                <span class="fas fa-sign-out-alt mr-2"></span>Logout</a>
+
+                <button aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation"
+                        class="navbar-toggler ml-2" data-target="#navbar_global" data-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+</header>

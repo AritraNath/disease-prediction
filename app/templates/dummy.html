@@ -1,0 +1,226 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Presentation {% endblock %}
+{% block stylesheets %}
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Century Gothic, serif;
+    }
+
+
+    header {
+
+        background-size: cover;
+        background-position: center;
+    }
+
+    .left_div {
+        float: left;
+
+        width: 45%;
+        height: 500px;
+        padding-left: 25px;
+
+    }
+
+    .right_div {
+
+        background-color: rgb(182, 180, 169);
+        float: right;
+        padding: 15px;
+        width: 45%;
+        height: 420px;
+        border: 4px solid;
+        margin: 30px;
+        box-shadow: 10px 10px 5px #888888;
+        position: absolute;
+        text-align: ;
+        top: 50%;
+        left: 75%;
+        -moz-transform: translateX(-70%) translateY(-50%);
+        -webkit-transform: translateX(-70%) translateY(-50%);
+        transform: translateX(-70%) translateY(-50%);
+
+    }
+
+    .padded_contents {
+        padding: 5px;
+    }
+
+    .patientTitle h1 {
+        color: #fff;
+
+    }
+
+    tr {
+        border-spacing: 0px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+
+
+    .btn1 {
+        border: 1px solid #fff;
+        padding: 10px 20px;
+        color: floralwhite;
+        background-color: initial;
+        text-decoration: none;
+        margin-top: 5px;
+        margin-right: 15px;
+        position: absolute;
+        top: 620px
+    }
+
+    .btn2 {
+        border: 1px solid #fff;
+        padding: 10px 20px;
+        color: floralwhite;
+        background-color: initial;
+        text-decoration: none;
+        position: absolute;
+        left: 640px;
+        top: 740px;
+    }
+
+    .btn1:hover {
+        background-color: #fff;
+        color: #000;
+
+    }
+
+    .btnPlay {
+        background-color: initial;
+        width: 34px;
+        height: 34px;
+        border-style: solid;
+        border-width: 17px;
+        border-color: #615a5a;
+        border-width: 17px 17px 17px 17px;
+        border-color: initial;
+        border-width: 17px 0px 17px 34px;
+        border-color: initial;
+        box-sizing: border-box;
+        width: 34px;
+        height: 34px;
+        border-width: 17px 0px 17px 34px;
+        border-color: transparent transparent transparent #615a5a;
+        box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 05);
+        position: absolute;
+        top: 625px;
+        left: 405px;
+
+    }
+
+</style>
+{% endblock stylesheets %}
+
+{% block content %}
+
+<form action="{{url_for('predict')}}" id="SymForm" method="POST" name="SymptomForm">
+    <section class="section section bg-primary pb-11 pb-lg-12 text-white overflow-hidden z-2">
+        <header>
+
+            <div class="left_div">
+                <table cellpadding="0" cellspacing="0">
+                    <tr><h1 style="font-weight: bolder;font-style: normal;border-collapse: initial;">Diagnosis
+                        Center</h1>
+                    </tr>
+
+                    <tr>
+                        <td><p style="color: aliceblue;font-weight: bolder;"><strong>Enter your Symptoms</strong></p>
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr>
+                        <td><label for="symptom1">Select symptom 1: </label></td>
+
+                        <td style="padding-bottom: 5px;">
+                            <select name="Symptom1" placeholder="Enter Symptom">
+                                <option>Enter Symptom</option>
+                                {% for sym in symptoms %}
+                                <option value="{{sym}}">{{sym}}</option>
+                                {% endfor %}
+                            </select>
+                        </td>
+                        <br><br></tr>
+                    <tr>
+                        <td><label for="symptom2">Select symptom 2 : </label></td>
+                        <td style="padding-bottom: 5px;">
+                            <select name="Symptom2" placeholder="Enter Symptom">
+                                <option>Enter Symptom</option>
+                                {% for sym in symptoms %}
+                                <option value="{{sym}}">{{sym}}</option>
+                                {% endfor %}
+                            </select>
+                        </td>
+                        <br><br></tr>
+                    <tr>
+                        <td><label for="symptom3">Select symptom 3 : </label></td>
+                        <td style="padding-bottom: 5px;">
+                            <select name="Symptom3" placeholder="Enter Symptom">
+                                <option>Enter Symptom</option>
+                                {% for sym in symptoms %}
+                                <option value="{{sym}}">{{sym}}</option>
+                                {% endfor %}
+                            </select>
+                        </td>
+                        <br><br></tr>
+                    <tr>
+                        <td><label for="symptom4">Select symptom 4 : </label></td>
+                        <td style="padding-bottom: 5px;">
+                            <select name="Symptom4" placeholder="Enter Symptom">
+                                <option>Enter Symptom</option>
+                                {% for sym in symptoms %}
+                                <option value="{{sym}}">{{sym}}</option>
+                                {% endfor %}
+                            </select></td>
+                        <br><br></tr>
+                    <tr>
+                        <td><label for="symptom5">Select symptom 5 : </label></td>
+                        <td style="padding-bottom: 5px;">
+                            <select name="Symptom5" placeholder="Enter Symptom">
+                                <option>Enter Symptom</option>
+                                {% for sym in symptoms %}
+                                <option value="{{sym}}">{{sym}}</option>
+                                {% endfor %}
+                            </select></td>
+                    </tr>
+
+                    <tr></tr>
+                    <tr></tr>
+                </table>
+                <br><br>
+
+
+                <button class="btn1" id="start_diagnosis" name=form type="submit" value="decision">Start Diagnosis
+                </button>
+
+                <label style="margin-top: 25px;margin-left:20px;margin-top:20px;color:wheat; border-style:dotted ;border-color:brown;position: absolute;top:602px;left:220px; padding:2px;padding-left: 2px;padding-right: 2px;">For
+                    entering audio<br> symptoms. Click here</label>
+                <button class="btnPlay" name=form style="margin-left: 10px;" type="submit" value="play"></button>
+
+                <script src="scripts/symptom_load_script.js"></script>
+
+            </div>
+
+        </header>
+        <div class="right_div">
+            <h3 style="color:black; font-weight: bold; font-family:Georgia;color: black;text-align: center;padding-bottom: 10px;">
+                PROBABLE DISEASE INFO</h3>
+            {% block predict %}
+            {% endblock predict %}
+
+
+        </div>
+        <button class="btn2" type="submit">Show Doctors</a>
+    </section>
+
+</form>
+
+{% endblock content %}
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+{% endblock javascripts %}
